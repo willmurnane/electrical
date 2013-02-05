@@ -1,5 +1,5 @@
-update=2/5/2013 9:33:53 AM
-last_client=eeschema
+update=2/5/2013 11:22:38 AM
+last_client=cvpcb
 [pcbnew]
 version=1
 PadDrlX=320
@@ -28,13 +28,8 @@ LibName7=display
 LibName8=valves
 LibName9=led
 LibName10=dip_sockets
-LibName11=C:/Users/Will/Documents/electrical/kicad/SMT_ETHERNET
-LibDir=
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+LibName11=SMT_ETHERNET
+LibDir=../libs
 [eeschema]
 version=1
 LibDir=../libs
@@ -100,3 +95,8 @@ LibName30=valves
 LibName31=avrcraft-cache
 LibName32=csense-opamp
 LibName33=poe-injector-cache
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms

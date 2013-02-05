@@ -1,0 +1,413 @@
+# EESchema Netlist Version 1.1 created  2/5/2013 11:25:02 AM
+(
+ ( /5110837E $noname  L2 INDUCTOR {Lib=INDUCTOR}
+  (    1 N-000004 )
+  (    2 N-000023 )
+ )
+ ( /5110837B $noname  L1 INDUCTOR {Lib=INDUCTOR}
+  (    1 N-000006 )
+  (    2 N-000023 )
+ )
+ ( /51108378 $noname  L3 INDUCTOR {Lib=INDUCTOR}
+  (    1 N-000002 )
+  (    2 GND )
+ )
+ ( /51108372 $noname  L4 INDUCTOR {Lib=INDUCTOR}
+  (    1 N-000001 )
+  (    2 GND )
+ )
+ ( /511082E9 $noname  L5 INDUCTOR {Lib=INDUCTOR}
+  (    1 N-000011 )
+  (    2 N-000014 )
+ )
+ ( /511082E7 $noname  L6 INDUCTOR {Lib=INDUCTOR}
+  (    1 N-000010 )
+  (    2 N-000014 )
+ )
+ ( /511082DE $noname  L7 INDUCTOR {Lib=INDUCTOR}
+  (    1 N-000008 )
+  (    2 GND )
+ )
+ ( /511082CE $noname  L8 INDUCTOR {Lib=INDUCTOR}
+  (    1 N-000007 )
+  (    2 GND )
+ )
+ ( /51106D50 $noname  R5 100k {Lib=R}
+  (    1 N-000039 )
+  (    2 N-000040 )
+ )
+ ( /51106D45 $noname  R2 100k {Lib=R}
+  (    1 N-000018 )
+  (    2 N-000036 )
+ )
+ ( /51105C00 $noname  EOUT2 CONN_10 {Lib=CONN_10}
+  (    1 N-000017 )
+  (    2 N-000016 )
+  (    3 N-000015 )
+  (    4 N-000006 )
+  (    5 N-000004 )
+  (    6 N-000003 )
+  (    7 N-000002 )
+  (    8 N-000001 )
+  (    9 GND )
+  (   10 GND )
+ )
+ ( /51105BF9 $noname  EIN2 CONN_10 {Lib=CONN_10}
+  (    1 N-000017 )
+  (    2 N-000016 )
+  (    3 N-000015 )
+  (    4 N-000006 )
+  (    5 N-000004 )
+  (    6 N-000003 )
+  (    7 N-000002 )
+  (    8 N-000001 )
+  (    9 GND )
+  (   10 GND )
+ )
+ ( /51105B8F $noname  EOUT1 CONN_10 {Lib=CONN_10}
+  (    1 N-000005 )
+  (    2 N-000013 )
+  (    3 N-000012 )
+  (    4 N-000011 )
+  (    5 N-000010 )
+  (    6 N-000009 )
+  (    7 N-000008 )
+  (    8 N-000007 )
+  (    9 GND )
+  (   10 GND )
+ )
+ ( /51105B83 $noname  EIN1 CONN_10 {Lib=CONN_10}
+  (    1 N-000005 )
+  (    2 N-000013 )
+  (    3 N-000012 )
+  (    4 N-000011 )
+  (    5 N-000010 )
+  (    6 N-000009 )
+  (    7 N-000008 )
+  (    8 N-000007 )
+  (    9 GND )
+  (   10 GND )
+ )
+ ( /51105B6A $noname  POEGND2 CONN_1 {Lib=CONN_1}
+  (    1 GND )
+ )
+ ( /510E9B0A $noname  VBUS2 CONN_1 {Lib=CONN_1}
+  (    1 +48V )
+ )
+ ( /510E9ADD ZXMP10A17E6  Q3 ZXMP10A17E6 {Lib=ZXMP10A17E6}
+  (    1 N-000014 )
+  (    2 N-000014 )
+  (    3 N-000040 )
+  (    4 N-000039 )
+  (    5 N-000014 )
+  (    6 N-000014 )
+ )
+ ( /510E9ADC $noname  VBUS1 CONN_1 {Lib=CONN_1}
+  (    1 +48V )
+ )
+ ( /510E9ADA $noname  R7 1 {Lib=R}
+  (    1 N-000039 )
+  (    2 +48V )
+ )
+ ( /510E9AD9 $noname  U4 LTC6101 {Lib=LTC6101}
+  (    1 N-000030 )
+  (    2 GND )
+  (    3 N-000035 )
+  (    4 N-000039 )
+  (    5 +48V )
+ )
+ ( /510E9AD8 $noname  R8 100 {Lib=R}
+  (    1 +48V )
+  (    2 N-000035 )
+ )
+ ( /510E9AD7 $noname  Q4 2N7002K {Lib=2N7002K}
+  (    1 N-000026 )
+  (    2 N-000037 )
+  (    3 N-000040 )
+ )
+ ( /510E9AD6 $noname  R6 10k {Lib=R}
+  (    1 N-000039 )
+  (    2 N-000037 )
+ )
+ ( /510E897F $noname  R1 33k {Lib=R}
+  (    1 N-000037 )
+  (    2 GND )
+ )
+ ( /510E8948 $noname  Q2 2N7002K {Lib=2N7002K}
+  (    1 N-000038 )
+  (    2 N-000037 )
+  (    3 N-000036 )
+ )
+ ( /510E856C $noname  R4 100 {Lib=R}
+  (    1 +48V )
+  (    2 N-000025 )
+ )
+ ( /510E84E6 $noname  U2 LTC6101 {Lib=LTC6101}
+  (    1 N-000029 )
+  (    2 GND )
+  (    3 N-000025 )
+  (    4 N-000018 )
+  (    5 +48V )
+ )
+ ( /510D2AD7 $noname  R3 1 {Lib=R}
+  (    1 N-000018 )
+  (    2 +48V )
+ )
+ ( /510D2ACA $noname  POEGND1 CONN_1 {Lib=CONN_1}
+  (    1 GND )
+ )
+ ( /510D287D ZXMP10A17E6  Q1 ZXMP10A17E6 {Lib=ZXMP10A17E6}
+  (    1 N-000023 )
+  (    2 N-000023 )
+  (    3 N-000036 )
+  (    4 N-000018 )
+  (    5 N-000023 )
+  (    6 N-000023 )
+ )
+ ( /510D25BB $noname  U1 ATTINY44 {Lib=ATTINY44}
+  (    1 +5V )
+  (    2 ? )
+  (    3 ? )
+  (    4 N-000034 )
+  (    5 ? )
+  (    6 ? )
+  (    7 N-000027 )
+  (    8 N-000031 )
+  (    9 N-000028 )
+  (   10 N-000038 )
+  (   11 N-000030 )
+  (   12 N-000026 )
+  (   13 N-000029 )
+  (   14 GND )
+ )
+ ( /50FDDACD RIBBON6SMT  J1 AVRISP6 {Lib=AVRISP6}
+  (    1 N-000031 )
+  (    2 +5V )
+  (    3 N-000028 )
+  (    4 N-000027 )
+  (    5 N-000034 )
+  (    6 GND )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component J1
+ AVR6PIN
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "" ""
+ L4 1
+ EIN2 8
+ EOUT2 8
+Net 2 "" ""
+ EOUT2 7
+ EIN2 7
+ L3 1
+Net 3 "" ""
+ EIN2 6
+ EOUT2 6
+Net 4 "" ""
+ EIN2 5
+ L2 1
+ EOUT2 5
+Net 5 "" ""
+ EIN1 1
+ EOUT1 1
+Net 6 "" ""
+ L1 1
+ EIN2 4
+ EOUT2 4
+Net 7 "" ""
+ L8 1
+ EOUT1 8
+ EIN1 8
+Net 8 "" ""
+ EIN1 7
+ L7 1
+ EOUT1 7
+Net 9 "" ""
+ EOUT1 6
+ EIN1 6
+Net 10 "" ""
+ EOUT1 5
+ L6 1
+ EIN1 5
+Net 11 "" ""
+ EOUT1 4
+ EIN1 4
+ L5 1
+Net 12 "" ""
+ EIN1 3
+ EOUT1 3
+Net 13 "" ""
+ EIN1 2
+ EOUT1 2
+Net 14 "" ""
+ Q3 5
+ L5 2
+ Q3 2
+ Q3 1
+ L6 2
+ Q3 6
+Net 15 "" ""
+ EIN2 3
+ EOUT2 3
+Net 16 "" ""
+ EIN2 2
+ EOUT2 2
+Net 17 "" ""
+ EOUT2 1
+ EIN2 1
+Net 18 "" ""
+ Q1 4
+ R3 1
+ U2 4
+ R2 1
+Net 19 "GND" "GND"
+ U4 2
+ POEGND2 1
+ EIN1 10
+ R1 2
+ L3 2
+ L4 2
+ EOUT1 9
+ EOUT1 10
+ EOUT2 9
+ EOUT2 10
+ EIN2 9
+ EIN2 10
+ U2 2
+ U1 14
+ J1 6
+ POEGND1 1
+ L7 2
+ L8 2
+ EIN1 9
+Net 21 "+5V" "+5V"
+ J1 2
+ U1 1
+Net 23 "" ""
+ Q1 1
+ Q1 2
+ Q1 5
+ Q1 6
+ L2 2
+ L1 2
+Net 24 "+48V" "+48V"
+ R8 1
+ R3 2
+ U2 5
+ U4 5
+ R7 2
+ VBUS1 1
+ VBUS2 1
+ R4 1
+Net 25 "" ""
+ R4 2
+ U2 3
+Net 26 "" ""
+ U1 12
+ Q4 1
+Net 27 "" ""
+ U1 7
+ J1 4
+Net 28 "" ""
+ U1 9
+ J1 3
+Net 29 "" ""
+ U2 1
+ U1 13
+Net 30 "" ""
+ U1 11
+ U4 1
+Net 31 "" ""
+ J1 1
+ U1 8
+Net 34 "" ""
+ U1 4
+ J1 5
+Net 35 "" ""
+ U4 3
+ R8 2
+Net 36 "" ""
+ R2 2
+ Q1 3
+ Q2 3
+Net 37 "" ""
+ Q2 2
+ R1 1
+ R6 2
+ Q4 2
+Net 38 "" ""
+ U1 10
+ Q2 1
+Net 39 "" ""
+ U4 4
+ R5 1
+ R6 1
+ Q3 4
+ R7 1
+Net 40 "" ""
+ Q4 3
+ Q3 3
+ R5 2
+}
+#End
