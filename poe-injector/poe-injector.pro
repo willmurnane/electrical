@@ -1,4 +1,4 @@
-update=2/6/2013 11:07:43 PM
+update=2/7/2013 2:40:33 PM
 last_client=pcbnew
 [eeschema]
 version=1
@@ -65,6 +65,7 @@ LibName30=avrcraft-cache
 LibName31=csense-opamp
 LibName32=poe-injector-cache
 LibName33=atmel
+LibName34=rjcse538001
 [cvpcb]
 version=1
 NetIExt=net
@@ -72,9 +73,9 @@ NetIExt=net
 EquName1=devcms
 [pcbnew]
 version=1
-PadDrlX=320
-PadDimH=600
-PadDimV=600
+PadDrlX=0
+PadDimH=1201
+PadDimV=240
 BoardThickness=630
 TxtPcbV=800
 TxtPcbH=600
@@ -102,4 +103,5 @@ LibName10=dip_sockets
 LibName11=SMT_ETHERNET
 LibName12=w_smd_trans
 LibName13=attiny24_44_84
-LibName14=Overlap2
+LibName14=RJCSE538001
+LibName15=RIBBON6SMT
