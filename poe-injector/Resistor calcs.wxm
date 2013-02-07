@@ -1,0 +1,30 @@
+/* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
+/* [ Created with wxMaxima version 12.01.0 ] */
+
+/* [wxMaxima: input   start ] */
+kill(all);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+rP(r2, r3) := 1/(1/(r2+25) + 1/r3);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+wp(r1, r2) := rP(r2, r3)/(r1+rP(r2, r3));
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+wn(r1, r3) := r3/(r1+r3);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+d(r1, r2, r3) := float(wn(r1, r3) - wp(r1, r2))*1024;
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+plot3d(d(r1, 100, r3), [r1, 1, 100], [r3, 1, 20]);
+/* [wxMaxima: input   end   ] */
+
+
+/* Maxima can't load/batch files which end with a comment! */
+"Created with wxMaxima"$
