@@ -1,10 +1,5 @@
-update=2/5/2013 5:37:11 PM
+update=2/6/2013 11:07:43 PM
 last_client=pcbnew
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [eeschema]
 version=1
 LibDir=../libs
@@ -70,6 +65,11 @@ LibName30=avrcraft-cache
 LibName31=csense-opamp
 LibName32=poe-injector-cache
 LibName33=atmel
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [pcbnew]
 version=1
 PadDrlX=320
@@ -102,3 +102,4 @@ LibName10=dip_sockets
 LibName11=SMT_ETHERNET
 LibName12=w_smd_trans
 LibName13=attiny24_44_84
+LibName14=Overlap2

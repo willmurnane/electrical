@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 2/6/2013 4:04:26 PM
+Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 2/6/2013 11:06:08 PM
 
 BeginCmp
 TimeStamp = /5111AFE5;
@@ -120,10 +120,10 @@ IdModule  = 1pin;
 EndCmp
 
 BeginCmp
-TimeStamp = /510D287D;
+TimeStamp = /511320FF;
 Reference = Q1;
-ValeurCmp = ZXMP10A17E6;
-IdModule  = sot23-6;
+ValeurCmp = SQ2361EES;
+IdModule  = SOT23;
 EndCmp
 
 BeginCmp
@@ -134,10 +134,10 @@ IdModule  = SOT23;
 EndCmp
 
 BeginCmp
-TimeStamp = /510E9ADD;
+TimeStamp = /51132112;
 Reference = Q3;
-ValeurCmp = ZXMP10A17E6;
-IdModule  = sot23-6;
+ValeurCmp = SQ2361EES;
+IdModule  = SOT23;
 EndCmp
 
 BeginCmp
@@ -220,43 +220,50 @@ EndCmp
 BeginCmp
 TimeStamp = /5112C0C5;
 Reference = R11;
-ValeurCmp = 220k;
+ValeurCmp = 20k;
 IdModule  = SM1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /5112C07A;
 Reference = R12;
-ValeurCmp = 100k;
+ValeurCmp = 49.9k;
 IdModule  = SM1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /5112C074;
 Reference = R13;
-ValeurCmp = 10k;
+ValeurCmp = 4.99k;
 IdModule  = SM1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /5112C4A1;
 Reference = R14;
-ValeurCmp = 100k;
-IdModule  = SM1206;
-EndCmp
-
-BeginCmp
-TimeStamp = /5112C4BC;
-Reference = R15;
-ValeurCmp = 220k;
+ValeurCmp = 49.9k;
 IdModule  = SM1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /5112C4A5;
-Reference = R16;
-ValeurCmp = 10k;
+Reference = R15;
+ValeurCmp = 4.99k;
 IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5112C4BC;
+Reference = R16;
+ValeurCmp = 20k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /511325B4;
+Reference = U1;
+ValeurCmp = GU;
+IdModule  = Overlap2;
 EndCmp
 
 BeginCmp

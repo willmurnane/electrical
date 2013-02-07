@@ -1,304 +1,247 @@
-# EESchema Netlist Version 1.1 created  2/6/2013 4:04:26 PM
+# EESchema Netlist Version 1.1 created  2/6/2013 11:11:37 PM
 (
- ( /5111AFE5 SM1206 C1 10u
-  ( 1 +5V )
-  ( 2 GND )
+ ( /51132112 SOT23  Q3 SQ2361EES {Lib=SQ2361EES}
+  (    1 N-000013 )
+  (    2 N-000004 )
+  (    3 N-000040 )
  )
- ( /51105B83 SMT_ETHERNET EIN1 CONN_10
-  ( 1 N-000020 )
-  ( 2 N-000033 )
-  ( 3 N-000032 )
-  ( 4 N-000001 )
-  ( 5 N-000031 )
-  ( 6 N-000030 )
-  ( 7 N-000029 )
-  ( 8 N-000028 )
-  ( 9 GND )
-  ( 10 GND )
+ ( /511320FF SOT23  Q1 SQ2361EES {Lib=SQ2361EES}
+  (    1 N-000036 )
+  (    2 N-000003 )
+  (    3 N-000032 )
  )
- ( /51105BF9 SMT_ETHERNET EIN2 CONN_10
-  ( 1 N-000003 )
-  ( 2 N-000009 )
-  ( 3 N-000026 )
-  ( 4 N-000025 )
-  ( 5 N-000024 )
-  ( 6 N-000023 )
-  ( 7 N-000022 )
-  ( 8 N-000021 )
-  ( 9 GND )
-  ( 10 GND )
+ ( /5112C4BC $noname  R16 20k {Lib=R}
+  (    1 N-000038 )
+  (    2 +5V )
  )
- ( /51105B8F SMT_ETHERNET EOUT1 CONN_10
-  ( 1 N-000020 )
-  ( 2 N-000033 )
-  ( 3 N-000032 )
-  ( 4 N-000001 )
-  ( 5 N-000031 )
-  ( 6 N-000030 )
-  ( 7 N-000029 )
-  ( 8 N-000028 )
-  ( 9 GND )
-  ( 10 GND )
+ ( /5112C4A5 $noname  R15 4.99k {Lib=R}
+  (    1 N-000038 )
+  (    2 GND )
  )
- ( /51105C00 SMT_ETHERNET EOUT2 CONN_10
-  ( 1 N-000003 )
-  ( 2 N-000009 )
-  ( 3 N-000026 )
-  ( 4 N-000025 )
-  ( 5 N-000024 )
-  ( 6 N-000023 )
-  ( 7 N-000022 )
-  ( 8 N-000021 )
-  ( 9 GND )
-  ( 10 GND )
+ ( /5112C4A1 $noname  R14 49.9k {Lib=R}
+  (    1 N-000040 )
+  (    2 N-000038 )
  )
- ( /51117B27 attiny24_44_84-SOIC14 IC1 ATTINY44-SS
-  ( 1 +5V )
-  ( 2 ? )
-  ( 3 N-000015 )
-  ( 4 N-000012 )
-  ( 5 N-000011 )
-  ( 6 ? )
-  ( 7 N-000039 )
-  ( 8 N-000018 )
-  ( 9 N-000008 )
-  ( 10 N-000036 )
-  ( 11 N-000038 )
-  ( 12 N-000004 )
-  ( 13 N-000037 )
-  ( 14 GND )
+ ( /5112C0C5 $noname  R11 20k {Lib=R}
+  (    1 +5V )
+  (    2 N-000037 )
  )
- ( /50FDDACD RIBBON6SMT J1 AVRISP6
-  ( 1 N-000018 )
-  ( 2 +5V )
-  ( 3 N-000008 )
-  ( 4 N-000039 )
-  ( 5 N-000012 )
-  ( 6 GND )
+ ( /5112C07A $noname  R12 49.9k {Lib=R}
+  (    1 N-000032 )
+  (    2 N-000037 )
  )
- ( /5110837B SM1210 L1 INDUCTOR
-  ( 1 N-000025 )
-  ( 2 N-000002 )
+ ( /5112C074 $noname  R13 4.99k {Lib=R}
+  (    1 N-000037 )
+  (    2 GND )
  )
- ( /5110837E SM1210 L2 INDUCTOR
-  ( 1 N-000024 )
-  ( 2 N-000002 )
+ ( /5111AFE5 $noname  C1 10u {Lib=C}
+  (    1 +5V )
+  (    2 GND )
  )
- ( /51108378 SM1210 L3 INDUCTOR
-  ( 1 N-000022 )
-  ( 2 GND )
+ ( /51117B27 SO14  IC1 ATTINY44-SS {Lib=ATTINY44-SS}
+  (    1 +5V )
+  (    2 ? )
+  (    3 N-000018 )
+  (    4 N-000012 )
+  (    5 N-000011 )
+  (    6 ? )
+  (    7 N-000039 )
+  (    8 N-000016 )
+  (    9 N-000009 )
+  (   10 N-000001 )
+  (   11 N-000038 )
+  (   12 N-000002 )
+  (   13 N-000037 )
+  (   14 GND )
  )
- ( /51108372 SM1210 L4 INDUCTOR
-  ( 1 N-000021 )
-  ( 2 GND )
+ ( /5111743E $noname  R9 1k {Lib=R}
+  (    1 N-000002 )
+  (    2 GND )
  )
- ( /511082E9 SM1210 L5 INDUCTOR
-  ( 1 N-000001 )
-  ( 2 N-000040 )
+ ( /51117434 $noname  R10 1k {Lib=R}
+  (    1 N-000001 )
+  (    2 GND )
  )
- ( /511082E7 SM1210 L6 INDUCTOR
-  ( 1 N-000031 )
-  ( 2 N-000040 )
+ ( /5110837E $noname  L2 INDUCTOR {Lib=INDUCTOR}
+  (    1 N-000022 )
+  (    2 N-000032 )
  )
- ( /511082DE SM1210 L7 INDUCTOR
-  ( 1 N-000029 )
-  ( 2 GND )
+ ( /5110837B $noname  L1 INDUCTOR {Lib=INDUCTOR}
+  (    1 N-000023 )
+  (    2 N-000032 )
  )
- ( /511082CE SM1210 L8 INDUCTOR
-  ( 1 N-000028 )
-  ( 2 GND )
+ ( /51108378 $noname  L3 INDUCTOR {Lib=INDUCTOR}
+  (    1 N-000021 )
+  (    2 GND )
  )
- ( /510D2ACA 1pin POEGND1 CONN_1
-  ( 1 GND )
+ ( /51108372 $noname  L4 INDUCTOR {Lib=INDUCTOR}
+  (    1 N-000020 )
+  (    2 GND )
  )
- ( /51105B6A 1pin POEGND2 CONN_1
-  ( 1 GND )
+ ( /511082E9 $noname  L5 INDUCTOR {Lib=INDUCTOR}
+  (    1 N-000005 )
+  (    2 N-000040 )
  )
- ( /510D287D sot23-6 Q1 ZXMP10A17E6
-  ( 1 N-000002 )
-  ( 2 N-000002 )
-  ( 3 N-000034 )
-  ( 4 N-000005 )
-  ( 5 N-000002 )
-  ( 6 N-000002 )
+ ( /511082E7 $noname  L6 INDUCTOR {Lib=INDUCTOR}
+  (    1 N-000031 )
+  (    2 N-000040 )
  )
- ( /510E8948 SOT23 Q2 2N7002K
-  ( 1 N-000015 )
-  ( 2 VPP )
-  ( 3 N-000034 )
+ ( /511082DE $noname  L7 INDUCTOR {Lib=INDUCTOR}
+  (    1 N-000030 )
+  (    2 GND )
  )
- ( /510E9ADD sot23-6 Q3 ZXMP10A17E6
-  ( 1 N-000040 )
-  ( 2 N-000040 )
-  ( 3 N-000035 )
-  ( 4 N-000006 )
-  ( 5 N-000040 )
-  ( 6 N-000040 )
+ ( /511082CE $noname  L8 INDUCTOR {Lib=INDUCTOR}
+  (    1 N-000029 )
+  (    2 GND )
  )
- ( /510E9AD7 SOT23 Q4 2N7002K
-  ( 1 N-000011 )
-  ( 2 VPP )
-  ( 3 N-000035 )
+ ( /51106D50 $noname  R5 100k {Lib=R}
+  (    1 N-000004 )
+  (    2 N-000013 )
  )
- ( /510E897F SM1206 R1 33k
-  ( 1 VPP )
-  ( 2 GND )
+ ( /51106D45 $noname  R2 100k {Lib=R}
+  (    1 N-000003 )
+  (    2 N-000036 )
  )
- ( /51106D45 SM1206 R2 100k
-  ( 1 N-000005 )
-  ( 2 N-000034 )
+ ( /51105C00 $noname  EOUT2 CONN_10 {Lib=CONN_10}
+  (    1 N-000025 )
+  (    2 N-000024 )
+  (    3 N-000019 )
+  (    4 N-000023 )
+  (    5 N-000022 )
+  (    6 N-000027 )
+  (    7 N-000021 )
+  (    8 N-000020 )
+  (    9 GND )
+  (   10 GND )
  )
- ( /510D2AD7 SM1210 R3 1
-  ( 1 N-000005 )
-  ( 2 +48V )
+ ( /51105BF9 $noname  EIN2 CONN_10 {Lib=CONN_10}
+  (    1 N-000025 )
+  (    2 N-000024 )
+  (    3 N-000019 )
+  (    4 N-000023 )
+  (    5 N-000022 )
+  (    6 N-000027 )
+  (    7 N-000021 )
+  (    8 N-000020 )
+  (    9 GND )
+  (   10 GND )
  )
- ( /510E856C SM1206 R4 1k
-  ( 1 +48V )
-  ( 2 N-000019 )
+ ( /51105B8F $noname  EOUT1 CONN_10 {Lib=CONN_10}
+  (    1 N-000033 )
+  (    2 N-000028 )
+  (    3 N-000035 )
+  (    4 N-000005 )
+  (    5 N-000031 )
+  (    6 N-000034 )
+  (    7 N-000030 )
+  (    8 N-000029 )
+  (    9 GND )
+  (   10 GND )
  )
- ( /51106D50 SM1206 R5 100k
-  ( 1 N-000006 )
-  ( 2 N-000035 )
+ ( /51105B83 $noname  EIN1 CONN_10 {Lib=CONN_10}
+  (    1 N-000033 )
+  (    2 N-000028 )
+  (    3 N-000035 )
+  (    4 N-000005 )
+  (    5 N-000031 )
+  (    6 N-000034 )
+  (    7 N-000030 )
+  (    8 N-000029 )
+  (    9 GND )
+  (   10 GND )
  )
- ( /510E9AD6 SM1206 R6 10k
-  ( 1 +48V )
-  ( 2 VPP )
+ ( /51105B6A $noname  POEGND2 CONN_1 {Lib=CONN_1}
+  (    1 GND )
  )
- ( /510E9ADA SM1210 R7 1
-  ( 1 N-000006 )
-  ( 2 +48V )
+ ( /510E9B0A $noname  VBUS2 CONN_1 {Lib=CONN_1}
+  (    1 +48V )
  )
- ( /510E9AD8 SM1206 R8 1k
-  ( 1 +48V )
-  ( 2 N-000017 )
+ ( /510E9ADC $noname  VBUS1 CONN_1 {Lib=CONN_1}
+  (    1 +48V )
  )
- ( /5111743E SM1206 R9 1k
-  ( 1 N-000004 )
-  ( 2 GND )
+ ( /510E9ADA $noname  R7 1 {Lib=R}
+  (    1 N-000004 )
+  (    2 +48V )
  )
- ( /51117434 SM1206 R10 1k
-  ( 1 N-000036 )
-  ( 2 GND )
+ ( /510E9AD9 $noname  U4 LTC6101 {Lib=LTC6101}
+  (    1 N-000001 )
+  (    2 GND )
+  (    3 N-000015 )
+  (    4 N-000004 )
+  (    5 +48V )
  )
- ( /5112C0C5 SM1206 R11 220k
-  ( 1 +5V )
-  ( 2 N-000037 )
+ ( /510E9AD8 $noname  R8 1k {Lib=R}
+  (    1 +48V )
+  (    2 N-000015 )
  )
- ( /5112C07A SM1206 R12 100k
-  ( 1 N-000002 )
-  ( 2 N-000037 )
+ ( /510E9AD7 $noname  Q4 2N7002K {Lib=2N7002K}
+  (    1 N-000011 )
+  (    2 VPP )
+  (    3 N-000013 )
  )
- ( /5112C074 SM1206 R13 10k
-  ( 1 N-000037 )
-  ( 2 GND )
+ ( /510E9AD6 $noname  R6 10k {Lib=R}
+  (    1 +48V )
+  (    2 VPP )
  )
- ( /5112C4A1 SM1206 R14 100k
-  ( 1 N-000040 )
-  ( 2 N-000038 )
+ ( /510E897F $noname  R1 33k {Lib=R}
+  (    1 VPP )
+  (    2 GND )
  )
- ( /5112C4BC SM1206 R15 220k
-  ( 1 N-000038 )
-  ( 2 +5V )
+ ( /510E8948 $noname  Q2 2N7002K {Lib=2N7002K}
+  (    1 N-000018 )
+  (    2 VPP )
+  (    3 N-000036 )
  )
- ( /5112C4A5 SM1206 R16 10k
-  ( 1 N-000038 )
-  ( 2 GND )
+ ( /510E856C $noname  R4 1k {Lib=R}
+  (    1 +48V )
+  (    2 N-000017 )
  )
- ( /510E84E6 SOT23-5 U2 LTC6101
-  ( 1 N-000004 )
-  ( 2 GND )
-  ( 3 N-000019 )
-  ( 4 N-000005 )
-  ( 5 +48V )
+ ( /510E84E6 $noname  U2 LTC6101 {Lib=LTC6101}
+  (    1 N-000002 )
+  (    2 GND )
+  (    3 N-000017 )
+  (    4 N-000003 )
+  (    5 +48V )
  )
- ( /510E9AD9 SOT23-5 U4 LTC6101
-  ( 1 N-000036 )
-  ( 2 GND )
-  ( 3 N-000017 )
-  ( 4 N-000006 )
-  ( 5 +48V )
+ ( /510D2AD7 $noname  R3 1 {Lib=R}
+  (    1 N-000003 )
+  (    2 +48V )
  )
- ( /510E9ADC 1pin VBUS1 CONN_1
-  ( 1 +48V )
+ ( /510D2ACA $noname  POEGND1 CONN_1 {Lib=CONN_1}
+  (    1 GND )
  )
- ( /510E9B0A 1pin VBUS2 CONN_1
-  ( 1 +48V )
+ ( /50FDDACD RIBBON6SMT  J1 AVRISP6 {Lib=AVRISP6}
+  (    1 N-000016 )
+  (    2 +5V )
+  (    3 N-000009 )
+  (    4 N-000039 )
+  (    5 N-000012 )
+  (    6 GND )
  )
 )
 *
 { Allowed footprints by component:
-$component C1
- SM*
- C?
- C1-1
+$component Q3
+ SOT23
 $endlist
-$component J1
- AVR6PIN
+$component Q1
+ SOT23
 $endlist
-$component R1
+$component R16
  R?
  SM0603
  SM0805
  R?-*
  SM1206
 $endlist
-$component R2
+$component R15
  R?
  SM0603
  SM0805
  R?-*
  SM1206
 $endlist
-$component R3
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R4
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R5
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R6
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R7
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R8
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R9
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R10
+$component R14
  R?
  SM0603
  SM0805
@@ -326,26 +269,258 @@ $component R13
  R?-*
  SM1206
 $endlist
-$component R14
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component R9
  R?
  SM0603
  SM0805
  R?-*
  SM1206
 $endlist
-$component R15
+$component R10
  R?
  SM0603
  SM0805
  R?-*
  SM1206
 $endlist
-$component R16
+$component R5
  R?
  SM0603
  SM0805
  R?-*
  SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component J1
+ AVR6PIN
 $endlist
 $endfootprintlist
 }
+{ Pin List by Nets
+Net 1 "" ""
+ IC1 10
+ U4 1
+ R10 1
+Net 2 "" ""
+ U2 1
+ IC1 12
+ R9 1
+Net 3 "" ""
+ R3 1
+ Q1 2
+ R2 1
+ U2 4
+Net 4 "" ""
+ U4 4
+ Q3 2
+ R5 1
+ R7 1
+Net 5 "" ""
+ EIN1 4
+ L5 1
+ EOUT1 4
+Net 6 "VPP" "VPP"
+ Q2 2
+ Q4 2
+ R6 2
+ R1 1
+Net 7 "+5V" "+5V"
+ R11 1
+ R16 2
+ IC1 1
+ J1 2
+ C1 1
+Net 9 "" ""
+ IC1 9
+ J1 3
+Net 11 "" ""
+ Q4 1
+ IC1 5
+Net 12 "" ""
+ J1 5
+ IC1 4
+Net 13 "" ""
+ Q3 1
+ Q4 3
+ R5 2
+Net 14 "+48V" "+48V"
+ VBUS2 1
+ R4 1
+ R3 2
+ R8 1
+ R7 2
+ U4 5
+ R6 1
+ VBUS1 1
+ U2 5
+Net 15 "" ""
+ U4 3
+ R8 2
+Net 16 "" ""
+ IC1 8
+ J1 1
+Net 17 "" ""
+ U2 3
+ R4 2
+Net 18 "" ""
+ Q2 1
+ IC1 3
+Net 19 "" ""
+ EIN2 3
+ EOUT2 3
+Net 20 "" ""
+ EIN2 8
+ EOUT2 8
+ L4 1
+Net 21 "" ""
+ EIN2 7
+ L3 1
+ EOUT2 7
+Net 22 "" ""
+ EOUT2 5
+ L2 1
+ EIN2 5
+Net 23 "" ""
+ L1 1
+ EIN2 4
+ EOUT2 4
+Net 24 "" ""
+ EOUT2 2
+ EIN2 2
+Net 25 "" ""
+ EOUT2 1
+ EIN2 1
+Net 26 "GND" "GND"
+ R15 2
+ R10 2
+ POEGND1 1
+ R1 2
+ U4 2
+ J1 6
+ R13 2
+ U2 2
+ EIN2 9
+ EOUT2 10
+ EOUT2 9
+ POEGND2 1
+ EIN1 10
+ EIN1 9
+ L4 2
+ L3 2
+ R9 2
+ EIN2 10
+ IC1 14
+ L8 2
+ L7 2
+ C1 2
+ EOUT1 10
+ EOUT1 9
+Net 27 "" ""
+ EOUT2 6
+ EIN2 6
+Net 28 "" ""
+ EIN1 2
+ EOUT1 2
+Net 29 "" ""
+ L8 1
+ EOUT1 8
+ EIN1 8
+Net 30 "" ""
+ L7 1
+ EIN1 7
+ EOUT1 7
+Net 31 "" ""
+ EOUT1 5
+ EIN1 5
+ L6 1
+Net 32 "" ""
+ Q1 3
+ R12 1
+ L2 2
+ L1 2
+Net 33 "" ""
+ EOUT1 1
+ EIN1 1
+Net 34 "" ""
+ EIN1 6
+ EOUT1 6
+Net 35 "" ""
+ EIN1 3
+ EOUT1 3
+Net 36 "" ""
+ Q1 1
+ Q2 3
+ R2 2
+Net 37 "" ""
+ R12 2
+ IC1 13
+ R11 2
+ R13 1
+Net 38 "" ""
+ R14 2
+ IC1 11
+ R15 1
+ R16 1
+Net 39 "" ""
+ IC1 7
+ J1 4
+Net 40 "" ""
+ Q3 3
+ R14 1
+ L5 2
+ L6 2
+}
+#End
