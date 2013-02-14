@@ -1,0 +1,124 @@
+# EESchema Netlist Version 1.1 created  2/14/2013 4:38:49 PM
+(
+ ( /511C0518 $noname  P1 CONN_1 {Lib=CONN_1}
+  (    1 N-000019 )
+ )
+ ( /511BA32D $noname  P2 CONN_1 {Lib=CONN_1}
+  (    1 N-000013 )
+ )
+ ( /511BB328 $noname  J1 AVRISP6 {Lib=AVRISP6}
+  (    1 N-000017 )
+  (    2 +5V )
+  (    3 N-000004 )
+  (    4 N-000011 )
+  (    5 N-000010 )
+  (    6 GND )
+ )
+ ( /511BB316 SO14  IC1 ATTINY44A-SS {Lib=ATTINY44A-SS}
+  (    1 +5V )
+  (    2 ? )
+  (    3 ? )
+  (    4 N-000010 )
+  (    5 ? )
+  (    6 ? )
+  (    7 N-000011 )
+  (    8 N-000017 )
+  (    9 N-000004 )
+  (   10 ? )
+  (   11 ? )
+  (   12 N-000007 )
+  (   13 N-000018 )
+  (   14 GND )
+ )
+ ( /511BB104 transistor-fet-TO220  Q1 IRF540 {Lib=IRF540}
+  (    1 N-000018 )
+  (    2 N-000016 )
+  (    3 N-000015 )
+ )
+ ( /511BB100 transistor-fet-TO220  Q2 IRF540 {Lib=IRF540}
+  (    1 N-000007 )
+  (    2 N-000015 )
+  (    3 N-000019 )
+ )
+ ( /511BB044 $noname  P4 CONN_1 {Lib=CONN_1}
+  (    1 N-000019 )
+ )
+ ( /511BB03F $noname  P3 CONN_1 {Lib=CONN_1}
+  (    1 N-000016 )
+ )
+ ( /511BAC87 $noname  C2 C {Lib=C}
+  (    1 N-000015 )
+  (    2 N-000014 )
+ )
+ ( /511BAB9C $noname  L1 100uH {Lib=INDUCTOR}
+  (    1 N-000014 )
+  (    2 N-000013 )
+ )
+ ( /511BAB5F $noname  C1 200nF {Lib=C}
+  (    1 N-000019 )
+  (    2 N-000013 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component J1
+ AVR6PIN
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 4 "" ""
+ J1 3
+ IC1 9
+Net 7 "" ""
+ IC1 12
+ Q2 1
+Net 9 "GND" "GND"
+ IC1 14
+ J1 6
+Net 10 "" ""
+ IC1 4
+ J1 5
+Net 11 "" ""
+ J1 4
+ IC1 7
+Net 12 "+5V" "+5V"
+ IC1 1
+ J1 2
+Net 13 "" ""
+ C1 2
+ L1 2
+ P2 1
+Net 14 "" ""
+ L1 1
+ C2 2
+Net 15 "" ""
+ C2 1
+ Q1 3
+ Q2 2
+Net 16 "" ""
+ P3 1
+ Q1 2
+Net 17 "" ""
+ IC1 8
+ J1 1
+Net 18 "" ""
+ Q1 1
+ IC1 13
+Net 19 "" ""
+ P1 1
+ P4 1
+ C1 1
+ Q2 3
+}
+#End

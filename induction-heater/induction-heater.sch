@@ -1,0 +1,231 @@
+EESchema Schematic File Version 2  date 2/14/2013 4:32:54 PM
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:avrcraft-cache
+LIBS:csense-opamp
+LIBS:poe-injector-cache
+LIBS:rjcse538001
+LIBS:induction-heater-cache
+EELAYER 25  0
+EELAYER END
+$Descr A4 11700 8267
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "13 feb 2013"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_1 P1
+U 1 1 511C0518
+P 5300 3500
+F 0 "P1" H 5380 3500 40  0000 L CNN
+F 1 "CONN_1" H 5300 3555 30  0001 C CNN
+	1    5300 3500
+	1    0    0    -1  
+$EndComp
+Connection ~ 4350 3100
+Wire Wire Line
+	2950 3400 1450 3400
+Wire Wire Line
+	1450 3400 1450 3700
+Wire Wire Line
+	1450 6400 1350 6400
+Wire Wire Line
+	1350 6400 1350 6100
+Wire Wire Line
+	1350 6100 1750 6100
+Wire Wire Line
+	1750 6100 1750 3700
+Wire Wire Line
+	2550 6400 1950 6400
+Wire Wire Line
+	1950 6400 1950 3700
+Wire Wire Line
+	3350 3400 3350 3500
+Connection ~ 3350 3100
+Connection ~ 3350 3500
+Connection ~ 4350 3500
+Wire Wire Line
+	3350 3000 3350 3200
+Wire Wire Line
+	1850 3700 1850 6300
+Wire Wire Line
+	1850 6300 1450 6300
+Wire Wire Line
+	1450 6500 1450 6750
+Wire Wire Line
+	1450 6750 2750 6750
+Wire Wire Line
+	2750 6750 2750 3700
+Wire Wire Line
+	2750 3700 2550 3700
+Wire Wire Line
+	2950 3000 1350 3000
+Wire Wire Line
+	1350 3000 1350 3700
+Wire Wire Line
+	3350 3500 5150 3500
+$Comp
+L CONN_1 P2
+U 1 1 511BA32D
+P 4500 3100
+F 0 "P2" H 4580 3100 40  0000 L CNN
+F 1 "CONN_1" H 4500 3155 30  0001 C CNN
+	1    4500 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR01
+U 1 1 511BB33E
+P 2550 6300
+F 0 "#PWR01" H 2550 6390 20  0001 C CNN
+F 1 "+5V" H 2550 6390 30  0000 C CNN
+	1    2550 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 511BB339
+P 2550 6500
+F 0 "#PWR02" H 2550 6500 30  0001 C CNN
+F 1 "GND" H 2550 6430 30  0001 C CNN
+	1    2550 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 511BB336
+P 2550 5800
+F 0 "#PWR03" H 2550 5800 30  0001 C CNN
+F 1 "GND" H 2550 5730 30  0001 C CNN
+	1    2550 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR04
+U 1 1 511BB330
+P 1350 5800
+F 0 "#PWR04" H 1350 5890 20  0001 C CNN
+F 1 "+5V" H 1350 5890 30  0000 C CNN
+	1    1350 5800
+	-1   0    0    1   
+$EndComp
+$Comp
+L AVRISP6 J1
+U 1 1 511BB328
+P 2000 6400
+F 0 "J1" H 1800 6650 60  0000 C CNN
+F 1 "AVRISP6" H 2150 6100 60  0000 C CNN
+	1    2000 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L ATTINY44A-SS IC1
+U 1 1 511BB316
+P 1950 4750
+F 0 "IC1" H 1200 5500 60  0000 C CNN
+F 1 "ATTINY44A-SS" H 2450 4000 60  0000 C CNN
+F 2 "SO14" H 1250 4000 60  0001 C CNN
+	1    1950 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L IRF540 Q1
+U 1 1 511BB104
+P 3150 2900
+F 0 "Q1" H 2700 3000 50  0000 L BNN
+F 1 "IRF540" H 2700 2900 50  0000 L BNN
+F 2 "transistor-fet-TO220" H 3150 3050 50  0001 C CNN
+	1    3150 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L IRF540 Q2
+U 1 1 511BB100
+P 3150 3300
+F 0 "Q2" H 2700 3400 50  0000 L BNN
+F 1 "IRF540" H 2700 3300 50  0000 L BNN
+F 2 "transistor-fet-TO220" H 3150 3450 50  0001 C CNN
+	1    3150 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P4
+U 1 1 511BB044
+P 3350 3650
+F 0 "P4" H 3430 3650 40  0000 L CNN
+F 1 "CONN_1" H 3350 3705 30  0001 C CNN
+	1    3350 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_1 P3
+U 1 1 511BB03F
+P 3350 2650
+F 0 "P3" H 3430 2650 40  0000 L CNN
+F 1 "CONN_1" H 3350 2705 30  0001 C CNN
+	1    3350 2650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C2
+U 1 1 511BAC87
+P 3550 3100
+F 0 "C2" H 3600 3200 50  0000 L CNN
+F 1 "C" H 3600 3000 50  0000 L CNN
+	1    3550 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L INDUCTOR L1
+U 1 1 511BAB9C
+P 4050 3100
+F 0 "L1" V 4000 3100 40  0000 C CNN
+F 1 "100uH" V 4150 3100 40  0000 C CNN
+	1    4050 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C1
+U 1 1 511BAB5F
+P 4350 3300
+F 0 "C1" H 4400 3400 50  0000 L CNN
+F 1 "200nF" H 4400 3200 50  0000 L CNN
+	1    4350 3300
+	-1   0    0    1   
+$EndComp
+$EndSCHEMATC

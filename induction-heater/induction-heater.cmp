@@ -1,0 +1,80 @@
+Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 2/14/2013 4:38:44 PM
+
+BeginCmp
+TimeStamp = /511BAB5F;
+Reference = C1;
+ValeurCmp = 200nF;
+IdModule  = C4BSPBX;
+EndCmp
+
+BeginCmp
+TimeStamp = /511BAC87;
+Reference = C2;
+ValeurCmp = C;
+IdModule  = C4BSPBX;
+EndCmp
+
+BeginCmp
+TimeStamp = /511BB316;
+Reference = IC1;
+ValeurCmp = ATTINY44A-SS;
+IdModule  = attiny24_44_84-SOIC14;
+EndCmp
+
+BeginCmp
+TimeStamp = /511BB328;
+Reference = J1;
+ValeurCmp = AVRISP6;
+IdModule  = RIBBON6SMT;
+EndCmp
+
+BeginCmp
+TimeStamp = /511BAB9C;
+Reference = L1;
+ValeurCmp = 100uH;
+IdModule  = IHLP-6767GZ-11;
+EndCmp
+
+BeginCmp
+TimeStamp = /511C0518;
+Reference = P1;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /511BA32D;
+Reference = P2;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /511BB03F;
+Reference = P3;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /511BB044;
+Reference = P4;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /511BB104;
+Reference = Q1;
+ValeurCmp = IRF540;
+IdModule  = d2-pak;
+EndCmp
+
+BeginCmp
+TimeStamp = /511BB100;
+Reference = Q2;
+ValeurCmp = IRF540;
+IdModule  = d2-pak;
+EndCmp
+
+EndListe
