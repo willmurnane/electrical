@@ -1,16 +1,9 @@
-Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 2/14/2013 4:38:44 PM
+Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Thu 14 Feb 2013 08:32:41 PM EST
 
 BeginCmp
 TimeStamp = /511BAB5F;
 Reference = C1;
 ValeurCmp = 200nF;
-IdModule  = C4BSPBX;
-EndCmp
-
-BeginCmp
-TimeStamp = /511BAC87;
-Reference = C2;
-ValeurCmp = C;
 IdModule  = C4BSPBX;
 EndCmp
 
@@ -36,17 +29,10 @@ IdModule  = IHLP-6767GZ-11;
 EndCmp
 
 BeginCmp
-TimeStamp = /511C0518;
-Reference = P1;
-ValeurCmp = CONN_1;
-IdModule  = 1pin;
-EndCmp
-
-BeginCmp
-TimeStamp = /511BA32D;
-Reference = P2;
-ValeurCmp = CONN_1;
-IdModule  = 1pin;
+TimeStamp = /511D8370;
+Reference = L2;
+ValeurCmp = INDUCTOR;
+IdModule  = IHLP-6767GZ-11;
 EndCmp
 
 BeginCmp
@@ -67,14 +53,28 @@ BeginCmp
 TimeStamp = /511BB104;
 Reference = Q1;
 ValeurCmp = IRF540;
-IdModule  = d2-pak;
+IdModule  = d-pak;
 EndCmp
 
 BeginCmp
 TimeStamp = /511BB100;
 Reference = Q2;
 ValeurCmp = IRF540;
-IdModule  = d2-pak;
+IdModule  = d-pak;
+EndCmp
+
+BeginCmp
+TimeStamp = /511D8381;
+Reference = Q3;
+ValeurCmp = IRF540;
+IdModule  = d-pak;
+EndCmp
+
+BeginCmp
+TimeStamp = /511D837A;
+Reference = Q4;
+ValeurCmp = IRF540;
+IdModule  = d-pak;
 EndCmp
 
 EndListe
