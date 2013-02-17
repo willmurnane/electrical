@@ -1,10 +1,17 @@
-Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Thu 14 Feb 2013 08:32:41 PM EST
+Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 2/17/2013 5:05:09 PM
 
 BeginCmp
 TimeStamp = /511BAB5F;
 Reference = C1;
 ValeurCmp = 200nF;
 IdModule  = C4BSPBX;
+EndCmp
+
+BeginCmp
+TimeStamp = /512153EE;
+Reference = C2;
+ValeurCmp = 10uF;
+IdModule  = SM1206;
 EndCmp
 
 BeginCmp
@@ -25,14 +32,14 @@ BeginCmp
 TimeStamp = /511BAB9C;
 Reference = L1;
 ValeurCmp = 100uH;
-IdModule  = IHLP-6767GZ-11;
+IdModule  = SRR1210;
 EndCmp
 
 BeginCmp
 TimeStamp = /511D8370;
 Reference = L2;
 ValeurCmp = INDUCTOR;
-IdModule  = IHLP-6767GZ-11;
+IdModule  = SRR1210;
 EndCmp
 
 BeginCmp
@@ -75,6 +82,13 @@ TimeStamp = /511D837A;
 Reference = Q4;
 ValeurCmp = IRF540;
 IdModule  = d-pak;
+EndCmp
+
+BeginCmp
+TimeStamp = /511E47E8;
+Reference = U1;
+ValeurCmp = IRS2301S;
+IdModule  = SO8N;
 EndCmp
 
 EndListe
