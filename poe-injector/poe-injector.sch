@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2/7/2013 2:35:54 PM
+EESchema Schematic File Version 2  date Sat 09 Mar 2013 12:40:18 PM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -40,7 +40,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "7 feb 2013"
+Date "9 mar 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -48,6 +48,15 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Connection ~ 7150 4100
+Wire Wire Line
+	7550 4100 7550 4300
+Wire Wire Line
+	7550 4100 7000 4100
+Wire Wire Line
+	7050 4300 7050 4400
+Wire Wire Line
+	6900 1900 6900 1750
 Connection ~ 4700 2750
 Wire Wire Line
 	5500 2750 5500 1900
@@ -137,7 +146,6 @@ Connection ~ 5800 4200
 Connection ~ 5700 3600
 Connection ~ 6250 2750
 Connection ~ 5500 4200
-Connection ~ 7050 4400
 Connection ~ 7150 3600
 Connection ~ 6800 3600
 Connection ~ 7000 3600
@@ -154,7 +162,6 @@ Connection ~ 7750 4650
 Connection ~ 6900 5100
 Connection ~ 6150 1250
 Connection ~ 6350 1250
-Connection ~ 6500 1250
 Connection ~ 7100 2700
 Connection ~ 7800 2700
 Connection ~ 7800 2500
@@ -168,12 +175,7 @@ Wire Wire Line
 	8450 4650 8700 4650
 Wire Wire Line
 	8700 4650 8700 4100
-Connection ~ 7050 4100
-Wire Wire Line
-	7150 4100 7000 4100
 Connection ~ 900  2450
-Wire Wire Line
-	7000 4100 7000 4000
 Wire Wire Line
 	7000 3600 7850 3600
 Wire Wire Line
@@ -181,10 +183,6 @@ Wire Wire Line
 Wire Wire Line
 	7750 3600 7750 4650
 Connection ~ 7750 3600
-Wire Wire Line
-	7050 4400 7050 4100
-Wire Wire Line
-	6400 2050 6400 1750
 Connection ~ 7100 1250
 Wire Wire Line
 	7100 1250 7100 2300
@@ -196,13 +194,7 @@ Wire Wire Line
 	7800 2300 7800 1750
 Wire Wire Line
 	7800 1750 7700 1750
-Wire Wire Line
-	6350 1650 6350 1750
 Connection ~ 5400 4200
-Wire Wire Line
-	6350 1750 6500 1750
-Connection ~ 6400 1750
-Connection ~ 7150 4100
 Connection ~ 6550 2750
 Wire Wire Line
 	5200 5100 5300 5100
@@ -289,6 +281,51 @@ Wire Wire Line
 	5100 1900 5100 2750
 Wire Wire Line
 	5400 1900 5400 2750
+Wire Wire Line
+	6400 1900 6400 2050
+Connection ~ 6900 1250
+Wire Wire Line
+	6900 1750 6350 1750
+Wire Wire Line
+	6350 1750 6350 1650
+Wire Wire Line
+	7000 4100 7000 4000
+$Comp
+L R R18
+U 1 1 513B72ED
+P 7300 4300
+F 0 "R18" V 7380 4300 50  0000 C CNN
+F 1 "499K" V 7300 4300 50  0000 C CNN
+	1    7300 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L R R17
+U 1 1 513B72C0
+P 6650 1900
+F 0 "R17" V 6730 1900 50  0000 C CNN
+F 1 "499K" V 6650 1900 50  0000 C CNN
+	1    6650 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 513B72AF
+P 7200 5100
+F 0 "#PWR?" H 7200 5100 30  0001 C CNN
+F 1 "GND" H 7200 5030 30  0001 C CNN
+	1    7200 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 513B72AC
+P 6550 2750
+F 0 "#PWR?" H 6550 2750 30  0001 C CNN
+F 1 "GND" H 6550 2680 30  0001 C CNN
+	1    6550 2750
+	1    0    0    -1  
+$EndComp
 $Comp
 L GND #PWR01
 U 1 1 5113FFBF
@@ -517,24 +554,6 @@ F 1 "10u" H 2100 1150 50  0000 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VPP #PWR29
-U 1 1 511185E5
-P 9450 1800
-F 0 "#PWR29" H 9450 2000 40  0001 C CNN
-F 1 "VPP" H 9450 1950 40  0000 C CNN
-	1    9450 1800
-	0    -1   -1   0   
-$EndComp
-$Comp
-L +48V #PWR015
-U 1 1 511185CE
-P 9450 1300
-F 0 "#PWR015" H 9450 1430 20  0001 C CNN
-F 1 "+48V" H 9450 1400 30  0000 C CNN
-	1    9450 1300
-	1    0    0    -1  
-$EndComp
-$Comp
 L +48V #PWR016
 U 1 1 5111849B
 P 7750 5050
@@ -559,33 +578,6 @@ P 8700 1250
 F 0 "#PWR018" H 8700 1380 20  0001 C CNN
 F 1 "+48V" H 8700 1350 30  0000 C CNN
 	1    8700 1250
-	1    0    0    -1  
-$EndComp
-$Comp
-L VPP #PWR19
-U 1 1 5111840D
-P 6550 2750
-F 0 "#PWR19" H 6550 2950 40  0001 C CNN
-F 1 "VPP" H 6550 2900 40  0000 C CNN
-	1    6550 2750
-	0    1    1    0   
-$EndComp
-$Comp
-L VPP #PWR22
-U 1 1 51118403
-P 7200 5100
-F 0 "#PWR22" H 7200 5300 40  0001 C CNN
-F 1 "VPP" H 7200 5250 40  0000 C CNN
-	1    7200 5100
-	-1   0    0    1   
-$EndComp
-$Comp
-L GND #PWR019
-U 1 1 51118117
-P 9450 2300
-F 0 "#PWR019" H 9450 2300 30  0001 C CNN
-F 1 "GND" H 9450 2230 30  0001 C CNN
-	1    9450 2300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -754,10 +746,10 @@ $EndComp
 $Comp
 L R R2
 U 1 1 51106D45
-P 6500 1500
-F 0 "R2" V 6580 1500 50  0000 C CNN
-F 1 "100k" V 6500 1500 50  0000 C CNN
-	1    6500 1500
+P 6900 1500
+F 0 "R2" V 6980 1500 50  0000 C CNN
+F 1 "100k" V 6900 1500 50  0000 C CNN
+	1    6900 1500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -842,15 +834,6 @@ F 1 "2N7002K" H 7050 4800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R6
-U 1 1 510E9AD6
-P 9450 1550
-F 0 "R6" V 9530 1550 50  0000 C CNN
-F 1 "10k" V 9450 1550 50  0000 C CNN
-	1    9450 1550
-	1    0    0    -1  
-$EndComp
-$Comp
 L GND #PWR026
 U 1 1 510E9A8D
 P 1100 1350
@@ -866,15 +849,6 @@ P 900 1350
 F 0 "#PWR027" H 900 1440 20  0001 C CNN
 F 1 "+5V" H 900 1440 30  0000 C CNN
 	1    900  1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R1
-U 1 1 510E897F
-P 9450 2050
-F 0 "R1" V 9530 2050 50  0000 C CNN
-F 1 "33k" V 9450 2050 50  0000 C CNN
-	1    9450 2050
 	1    0    0    -1  
 $EndComp
 $Comp
