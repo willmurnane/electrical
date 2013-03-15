@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 3/14/2013 6:43:47 PM
+EESchema Schematic File Version 2  date 3/14/2013 8:06:13 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -40,7 +40,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "14 mar 2013"
+Date "15 mar 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -48,6 +48,9 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Connection ~ 6250 3050
+Wire Wire Line
+	6100 3050 6250 3050
 Wire Wire Line
 	6250 2050 6400 2050
 Wire Wire Line
@@ -263,15 +266,7 @@ Wire Wire Line
 	6100 2250 6100 2400
 Connection ~ 6100 2250
 Wire Wire Line
-	6100 2550 6100 2750
-Wire Wire Line
-	6100 2750 6250 2750
-Wire Wire Line
 	6600 4550 6600 4700
-Wire Wire Line
-	6600 4850 6600 5100
-Wire Wire Line
-	6600 5100 6900 5100
 Wire Wire Line
 	7800 2700 7800 3450
 Wire Wire Line
@@ -312,6 +307,27 @@ Wire Wire Line
 Wire Wire Line
 	6450 1650 6150 1650
 Connection ~ 6350 1650
+Wire Wire Line
+	6600 5350 6900 5350
+Connection ~ 6900 5350
+$Comp
+L R R17
+U 1 1 51426593
+P 6100 2800
+F 0 "R17" V 6180 2800 50  0000 C CNN
+F 1 "243" V 6100 2800 50  0000 C CNN
+	1    6100 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R18
+U 1 1 5142658A
+P 6600 5100
+F 0 "R18" V 6680 5100 50  0000 C CNN
+F 1 "243" V 6600 5100 50  0000 C CNN
+	1    6600 5100
+	1    0    0    -1  
+$EndComp
 $Comp
 L GND #PWR01
 U 1 1 51425222
