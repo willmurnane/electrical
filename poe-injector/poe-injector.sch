@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 EESchema Schematic File Version 2  date 3/14/2013 8:06:13 PM
+=======
+EESchema Schematic File Version 2  date 8/5/2013 4:02:56 PM
+>>>>>>> Update schematic with Charles' suggestions and fixes
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -40,7 +44,11 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title ""
+<<<<<<< HEAD
 Date "15 mar 2013"
+=======
+Date "5 aug 2013"
+>>>>>>> Update schematic with Charles' suggestions and fixes
 Rev ""
 Comp ""
 Comment1 ""
@@ -48,7 +56,40 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+<<<<<<< HEAD
 Connection ~ 6250 3050
+=======
+Wire Wire Line
+	4200 4050 4200 2550
+Wire Wire Line
+	4200 4050 3600 4050
+Wire Wire Line
+	8600 3550 8600 3450
+Wire Wire Line
+	8600 3450 4400 3450
+Wire Wire Line
+	4400 3450 4400 3550
+Wire Wire Line
+	4400 3550 3600 3550
+Wire Wire Line
+	8100 1500 8100 950 
+Wire Wire Line
+	8100 950  3800 950 
+Wire Wire Line
+	3800 950  3800 3450
+Wire Wire Line
+	3800 3450 3600 3450
+Connection ~ 8800 1900
+Wire Wire Line
+	6350 1250 6850 1250
+Connection ~ 7600 1500
+Wire Wire Line
+	8100 1700 7600 1700
+Wire Wire Line
+	7600 1700 7600 1500
+Connection ~ 8600 2400
+Connection ~ 4700 2750
+>>>>>>> Update schematic with Charles' suggestions and fixes
 Wire Wire Line
 	6100 3050 6250 3050
 Wire Wire Line
@@ -64,19 +105,28 @@ Wire Wire Line
 Wire Wire Line
 	4350 2550 4350 4050
 Wire Wire Line
+<<<<<<< HEAD
 	4350 4050 3600 4050
 Wire Wire Line
 	6900 4500 6950 4500
 Wire Wire Line
 	6950 4500 6950 4400
+=======
+	6600 5100 6900 5100
+>>>>>>> Update schematic with Charles' suggestions and fixes
 Wire Wire Line
 	6950 4400 7050 4400
 Wire Wire Line
+<<<<<<< HEAD
 	6900 4000 7000 4000
 Wire Wire Line
 	5400 1900 5400 2750
 Wire Wire Line
 	5100 1900 5100 2750
+=======
+	6600 4550 6600 4700
+Connection ~ 6100 2250
+>>>>>>> Update schematic with Charles' suggestions and fixes
 Wire Wire Line
 	6000 4200 6000 5100
 Wire Wire Line
@@ -112,9 +162,15 @@ Connection ~ 4900 1900
 Wire Wire Line
 	4900 1850 4900 2750
 Wire Wire Line
+<<<<<<< HEAD
 	6150 1250 5200 1250
 Wire Wire Line
 	4550 2750 4800 2750
+=======
+	8100 3550 8100 3750
+Wire Wire Line
+	8100 3750 8600 3750
+>>>>>>> Update schematic with Charles' suggestions and fixes
 Wire Wire Line
 	3600 3550 4450 3550
 Wire Wire Line
@@ -128,16 +184,47 @@ Wire Wire Line
 Wire Wire Line
 	3950 3250 4200 3250
 Wire Wire Line
+<<<<<<< HEAD
 	4200 3250 4200 2550
 Wire Wire Line
 	3600 4350 4100 4350
 Wire Wire Line
 	4100 4350 4100 3300
+=======
+	5500 3600 5200 3600
+Connection ~ 5800 4200
+Connection ~ 5700 3600
+Connection ~ 6250 2750
+Connection ~ 5500 4200
+Connection ~ 7050 4400
+Connection ~ 7150 3600
+Connection ~ 6800 3600
+Connection ~ 7000 3600
+Connection ~ 8600 4450
+Connection ~ 9100 4450
+Connection ~ 9300 4450
+Connection ~ 9750 4450
+Connection ~ 8600 3950
+Connection ~ 8600 3750
+Connection ~ 8600 3550
+Connection ~ 9300 3550
+Connection ~ 9300 3950
+Connection ~ 6900 5100
+Connection ~ 6150 1250
+Connection ~ 6350 1250
+Connection ~ 6500 1250
+Connection ~ 8600 2400
+Connection ~ 7200 5100
+Connection ~ 5900 7250
+Connection ~ 5900 7450
+Connection ~ 7050 4100
+>>>>>>> Update schematic with Charles' suggestions and fixes
 Wire Wire Line
 	4100 3300 6250 3300
 Wire Wire Line
 	6250 3300 6250 2750
 Wire Wire Line
+<<<<<<< HEAD
 	3600 3750 1000 3750
 Connection ~ 3600 3750
 Connection ~ 5800 3600
@@ -145,9 +232,13 @@ Wire Wire Line
 	8300 2700 8300 2500
 Wire Wire Line
 	8300 2500 7800 2500
+=======
+	9750 4450 9100 4450
+>>>>>>> Update schematic with Charles' suggestions and fixes
 Wire Wire Line
 	5900 7550 5900 7250
 Wire Wire Line
+<<<<<<< HEAD
 	900  2450 900  3850
 Connection ~ 1000 2450
 Connection ~ 8700 1250
@@ -169,16 +260,30 @@ Wire Wire Line
 	7100 1250 7100 2300
 Connection ~ 7100 1250
 Connection ~ 7750 3600
+=======
+	6400 2050 6400 1750
+Wire Wire Line
+	8600 2400 9600 2400
+>>>>>>> Update schematic with Charles' suggestions and fixes
 Wire Wire Line
 	7750 3600 7750 4650
 Wire Wire Line
 	9000 3600 8350 3600
 Wire Wire Line
+<<<<<<< HEAD
 	7000 3600 7850 3600
 Connection ~ 900  2450
+=======
+	5200 5100 5300 5100
+Connection ~ 5200 5100
+Connection ~ 5200 1250
+Connection ~ 9600 2400
+Connection ~ 1000 2450
+>>>>>>> Update schematic with Charles' suggestions and fixes
 Wire Wire Line
 	8700 4100 8700 4650
 Wire Wire Line
+<<<<<<< HEAD
 	8700 4650 8450 4650
 Connection ~ 5900 7450
 Connection ~ 5900 7250
@@ -216,6 +321,11 @@ Connection ~ 5400 3600
 Wire Wire Line
 	4700 1250 5000 1250
 Connection ~ 4900 1250
+=======
+	5900 7550 5900 7250
+Connection ~ 5800 3600
+Connection ~ 3600 3750
+>>>>>>> Update schematic with Charles' suggestions and fixes
 Wire Wire Line
 	1100 2450 1100 4800
 Wire Wire Line
@@ -227,6 +337,7 @@ Wire Wire Line
 Wire Wire Line
 	1000 3750 1000 2450
 Wire Wire Line
+<<<<<<< HEAD
 	8450 4850 8950 4850
 Wire Wire Line
 	8950 4850 8950 5050
@@ -244,14 +355,25 @@ Wire Wire Line
 Connection ~ 3600 3850
 Wire Wire Line
 	900  3850 3600 3850
+=======
+	4650 4050 4450 4050
+Wire Wire Line
+	4550 2750 4800 2750
+>>>>>>> Update schematic with Charles' suggestions and fixes
 Wire Wire Line
 	5200 1250 5200 1150
 Wire Wire Line
 	4050 2050 4050 1150
 Wire Wire Line
+<<<<<<< HEAD
 	5700 3550 5700 3600
 Wire Wire Line
 	5700 3550 4650 3550
+=======
+	4400 2250 4400 2400
+Connection ~ 4400 2250
+Connection ~ 4200 2550
+>>>>>>> Update schematic with Charles' suggestions and fixes
 Wire Wire Line
 	5600 1900 5600 2750
 Wire Wire Line
@@ -272,6 +394,7 @@ Wire Wire Line
 Wire Wire Line
 	7800 3450 3600 3450
 Wire Wire Line
+<<<<<<< HEAD
 	5700 3600 6800 3600
 Wire Wire Line
 	5500 5100 5500 4200
@@ -281,6 +404,9 @@ Wire Wire Line
 	5900 5100 5900 4200
 Wire Wire Line
 	6100 5100 6100 4200
+=======
+	5400 4200 5400 5100
+>>>>>>> Update schematic with Charles' suggestions and fixes
 Wire Wire Line
 	5200 2750 5200 1850
 Connection ~ 5200 1900
@@ -292,6 +418,7 @@ Wire Wire Line
 Wire Wire Line
 	6450 1750 6500 1750
 Wire Wire Line
+<<<<<<< HEAD
 	7000 4000 7000 4100
 Wire Wire Line
 	7000 4100 7150 4100
@@ -326,11 +453,53 @@ P 6600 5100
 F 0 "R18" V 6680 5100 50  0000 C CNN
 F 1 "243" V 6600 5100 50  0000 C CNN
 	1    6600 5100
+=======
+	5400 1900 5400 2750
+Wire Wire Line
+	4200 2550 4050 2550
+Connection ~ 7900 2400
+Wire Wire Line
+	8100 2400 6850 2400
+Wire Wire Line
+	6850 2400 6850 1250
+Wire Wire Line
+	7900 1900 8100 1900
+Wire Wire Line
+	7000 3600 7750 3600
+Wire Wire Line
+	7750 3600 7750 4450
+Wire Wire Line
+	7750 4450 8600 4450
+Wire Wire Line
+	3600 3650 4450 3650
+Wire Wire Line
+	4450 3650 4450 4050
+$Comp
+L R R6
+U 1 1 5200024A
+P 9300 4200
+F 0 "R6" V 9380 4200 50  0000 C CNN
+F 1 "1k" V 9300 4200 50  0000 C CNN
+	1    9300 4200
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R1
+U 1 1 520001B4
+P 7900 2150
+F 0 "R1" V 7980 2150 50  0000 C CNN
+F 1 "1k" V 7900 2150 50  0000 C CNN
+	1    7900 2150
+>>>>>>> Update schematic with Charles' suggestions and fixes
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR01
+<<<<<<< HEAD
 U 1 1 51425222
+=======
+U 1 1 5200007C
+>>>>>>> Update schematic with Charles' suggestions and fixes
 P 7200 5100
 F 0 "#PWR01" H 7200 5100 30  0001 C CNN
 F 1 "GND" H 7200 5030 30  0001 C CNN
@@ -339,7 +508,11 @@ F 1 "GND" H 7200 5030 30  0001 C CNN
 $EndComp
 $Comp
 L GND #PWR02
+<<<<<<< HEAD
 U 1 1 5142521C
+=======
+U 1 1 52000076
+>>>>>>> Update schematic with Charles' suggestions and fixes
 P 6550 2750
 F 0 "#PWR02" H 6550 2750 30  0001 C CNN
 F 1 "GND" H 6550 2680 30  0001 C CNN
@@ -347,6 +520,7 @@ F 1 "GND" H 6550 2680 30  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
+<<<<<<< HEAD
 L R R6
 U 1 1 51424AED
 P 6900 4250
@@ -365,6 +539,8 @@ F 1 "392K" V 6150 1900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
+=======
+>>>>>>> Update schematic with Charles' suggestions and fixes
 L GND #PWR03
 U 1 1 5113FFBF
 P 5200 3600
@@ -594,28 +770,50 @@ $EndComp
 $Comp
 L +48V #PWR017
 U 1 1 5111849B
+<<<<<<< HEAD
 P 7750 5050
 F 0 "#PWR017" H 7750 5180 20  0001 C CNN
 F 1 "+48V" H 7750 5150 30  0000 C CNN
 	1    7750 5050
 	1    0    0    -1  
+=======
+P 9300 3550
+F 0 "#PWR017" H 9300 3680 20  0001 C CNN
+F 1 "+48V" H 9300 3650 30  0000 C CNN
+	1    9300 3550
+	-1   0    0    1   
+>>>>>>> Update schematic with Charles' suggestions and fixes
 $EndComp
 $Comp
 L +48V #PWR018
 U 1 1 51118493
+<<<<<<< HEAD
 P 7100 2700
 F 0 "#PWR018" H 7100 2830 20  0001 C CNN
 F 1 "+48V" H 7100 2800 30  0000 C CNN
 	1    7100 2700
+=======
+P 8800 1500
+F 0 "#PWR018" H 8800 1630 20  0001 C CNN
+F 1 "+48V" H 8800 1600 30  0000 C CNN
+	1    8800 1500
+>>>>>>> Update schematic with Charles' suggestions and fixes
 	1    0    0    -1  
 $EndComp
 $Comp
 L +48V #PWR019
 U 1 1 51118467
+<<<<<<< HEAD
 P 8700 1250
 F 0 "#PWR019" H 8700 1380 20  0001 C CNN
 F 1 "+48V" H 8700 1350 30  0000 C CNN
 	1    8700 1250
+=======
+P 9600 2400
+F 0 "#PWR019" H 9600 2530 20  0001 C CNN
+F 1 "+48V" H 9600 2500 30  0000 C CNN
+	1    9600 2400
+>>>>>>> Update schematic with Charles' suggestions and fixes
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -649,38 +847,38 @@ $EndComp
 $Comp
 L GND #PWR022
 U 1 1 5111744B
-P 8300 2700
-F 0 "#PWR022" H 8300 2700 30  0001 C CNN
-F 1 "GND" H 8300 2630 30  0001 C CNN
-	1    8300 2700
+P 7600 1500
+F 0 "#PWR022" H 7600 1500 30  0001 C CNN
+F 1 "GND" H 7600 1430 30  0001 C CNN
+	1    7600 1500
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR023
 U 1 1 51117447
-P 8950 5050
-F 0 "#PWR023" H 8950 5050 30  0001 C CNN
-F 1 "GND" H 8950 4980 30  0001 C CNN
-	1    8950 5050
-	1    0    0    -1  
+P 8100 3550
+F 0 "#PWR023" H 8100 3550 30  0001 C CNN
+F 1 "GND" H 8100 3480 30  0001 C CNN
+	1    8100 3550
+	-1   0    0    1   
 $EndComp
 $Comp
 L R R9
 U 1 1 5111743E
-P 8050 2700
-F 0 "R9" V 8130 2700 50  0000 C CNN
-F 1 "1k" V 8050 2700 50  0000 C CNN
-	1    8050 2700
+P 7850 1500
+F 0 "R9" V 7930 1500 50  0000 C CNN
+F 1 "1k" V 7850 1500 50  0000 C CNN
+	1    7850 1500
 	0    -1   -1   0   
 $EndComp
 $Comp
 L R R10
 U 1 1 51117434
-P 8700 5050
-F 0 "R10" V 8780 5050 50  0000 C CNN
-F 1 "1k" V 8700 5050 50  0000 C CNN
-	1    8700 5050
-	0    -1   -1   0   
+P 8350 3550
+F 0 "R10" V 8430 3550 50  0000 C CNN
+F 1 "1k" V 8350 3550 50  0000 C CNN
+	1    8350 3550
+	0    1    1    0   
 $EndComp
 $Comp
 L INDUCTOR L2
@@ -766,11 +964,11 @@ $EndComp
 $Comp
 L +48V #PWR025
 U 1 1 51106F2B
-P 9000 3600
-F 0 "#PWR025" H 9000 3730 20  0001 C CNN
-F 1 "+48V" H 9000 3700 30  0000 C CNN
-	1    9000 3600
-	1    0    0    -1  
+P 9750 4450
+F 0 "#PWR025" H 9750 4580 20  0001 C CNN
+F 1 "+48V" H 9750 4550 30  0000 C CNN
+	1    9750 4450
+	-1   0    0    1   
 $EndComp
 $Comp
 L R R5
@@ -820,47 +1018,47 @@ $EndComp
 $Comp
 L CONN_1 VBUS2
 U 1 1 510E9B0A
-P 8850 1250
-F 0 "VBUS2" H 8930 1250 40  0000 L CNN
-F 1 "CONN_1" H 8850 1305 30  0001 C CNN
-	1    8850 1250
+P 9750 2400
+F 0 "VBUS2" H 9830 2400 40  0000 L CNN
+F 1 "CONN_1" H 9750 2455 30  0001 C CNN
+	1    9750 2400
 	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_1 VBUS1
 U 1 1 510E9ADC
-P 9150 3600
-F 0 "VBUS1" H 9230 3600 40  0000 L CNN
-F 1 "CONN_1" H 9150 3655 30  0001 C CNN
-	1    9150 3600
+P 9900 4450
+F 0 "VBUS1" H 9980 4450 40  0000 L CNN
+F 1 "CONN_1" H 9900 4505 30  0001 C CNN
+	1    9900 4450
 	1    0    0    -1  
 $EndComp
 $Comp
 L R R7
 U 1 1 510E9ADA
-P 8100 3600
-F 0 "R7" V 8180 3600 50  0000 C CNN
-F 1 "1" V 8100 3600 50  0000 C CNN
-	1    8100 3600
+P 8850 4450
+F 0 "R7" V 8930 4450 50  0000 C CNN
+F 1 "1" V 8850 4450 50  0000 C CNN
+	1    8850 4450
 	0    -1   -1   0   
 $EndComp
 $Comp
 L LTC6101 U4
 U 1 1 510E9AD9
-P 8150 4850
-F 0 "U4" H 8150 4950 60  0000 C CNN
-F 1 "LTC6101" H 8150 4850 60  0000 C CNN
-	1    8150 4850
-	0    -1   -1   0   
+P 8900 3750
+F 0 "U4" H 8900 3850 60  0000 C CNN
+F 1 "LTC6101" H 8900 3750 60  0000 C CNN
+	1    8900 3750
+	0    1    1    0   
 $EndComp
 $Comp
 L R R8
 U 1 1 510E9AD8
-P 8700 3850
-F 0 "R8" V 8780 3850 50  0000 C CNN
-F 1 "1k" V 8700 3850 50  0000 C CNN
-	1    8700 3850
-	1    0    0    -1  
+P 8600 4200
+F 0 "R8" V 8680 4200 50  0000 C CNN
+F 1 "1k" V 8600 4200 50  0000 C CNN
+	1    8600 4200
+	-1   0    0    1   
 $EndComp
 $Comp
 L 2N7002K Q4
@@ -901,28 +1099,28 @@ $EndComp
 $Comp
 L R R4
 U 1 1 510E856C
-P 7700 1500
-F 0 "R4" V 7780 1500 50  0000 C CNN
-F 1 "1k" V 7700 1500 50  0000 C CNN
-	1    7700 1500
+P 8800 2150
+F 0 "R4" V 8880 2150 50  0000 C CNN
+F 1 "1k" V 8800 2150 50  0000 C CNN
+	1    8800 2150
 	1    0    0    -1  
 $EndComp
 $Comp
 L LTC6101 U2
 U 1 1 510E84E6
-P 7500 2500
-F 0 "U2" H 7500 2600 60  0000 C CNN
-F 1 "LTC6101" H 7500 2500 60  0000 C CNN
-	1    7500 2500
-	0    -1   -1   0   
+P 8400 1700
+F 0 "U2" H 8400 1800 60  0000 C CNN
+F 1 "LTC6101" H 8400 1700 60  0000 C CNN
+	1    8400 1700
+	0    1    1    0   
 $EndComp
 $Comp
 L R R3
 U 1 1 510D2AD7
-P 7450 1250
-F 0 "R3" V 7530 1250 50  0000 C CNN
-F 1 "1" V 7450 1250 50  0000 C CNN
-	1    7450 1250
+P 8350 2400
+F 0 "R3" V 8430 2400 50  0000 C CNN
+F 1 "1" V 8350 2400 50  0000 C CNN
+	1    8350 2400
 	0    -1   -1   0   
 $EndComp
 $Comp
