@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-EESchema Schematic File Version 2  date 3/14/2013 8:06:13 PM
-=======
 EESchema Schematic File Version 2  date 8/5/2013 4:02:56 PM
->>>>>>> Update schematic with Charles' suggestions and fixes
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -44,11 +40,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title ""
-<<<<<<< HEAD
-Date "15 mar 2013"
-=======
 Date "5 aug 2013"
->>>>>>> Update schematic with Charles' suggestions and fixes
 Rev ""
 Comp ""
 Comment1 ""
@@ -56,9 +48,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-<<<<<<< HEAD
-Connection ~ 6250 3050
-=======
 Wire Wire Line
 	4200 4050 4200 2550
 Wire Wire Line
@@ -89,7 +78,6 @@ Wire Wire Line
 	7600 1700 7600 1500
 Connection ~ 8600 2400
 Connection ~ 4700 2750
->>>>>>> Update schematic with Charles' suggestions and fixes
 Wire Wire Line
 	6100 3050 6250 3050
 Wire Wire Line
@@ -105,28 +93,12 @@ Wire Wire Line
 Wire Wire Line
 	4350 2550 4350 4050
 Wire Wire Line
-<<<<<<< HEAD
-	4350 4050 3600 4050
-Wire Wire Line
-	6900 4500 6950 4500
-Wire Wire Line
-	6950 4500 6950 4400
-=======
 	6600 5100 6900 5100
->>>>>>> Update schematic with Charles' suggestions and fixes
 Wire Wire Line
 	6950 4400 7050 4400
 Wire Wire Line
-<<<<<<< HEAD
-	6900 4000 7000 4000
-Wire Wire Line
-	5400 1900 5400 2750
-Wire Wire Line
-	5100 1900 5100 2750
-=======
 	6600 4550 6600 4700
 Connection ~ 6100 2250
->>>>>>> Update schematic with Charles' suggestions and fixes
 Wire Wire Line
 	6000 4200 6000 5100
 Wire Wire Line
@@ -162,15 +134,9 @@ Connection ~ 4900 1900
 Wire Wire Line
 	4900 1850 4900 2750
 Wire Wire Line
-<<<<<<< HEAD
-	6150 1250 5200 1250
-Wire Wire Line
-	4550 2750 4800 2750
-=======
 	8100 3550 8100 3750
 Wire Wire Line
 	8100 3750 8600 3750
->>>>>>> Update schematic with Charles' suggestions and fixes
 Wire Wire Line
 	3600 3550 4450 3550
 Wire Wire Line
@@ -184,13 +150,6 @@ Wire Wire Line
 Wire Wire Line
 	3950 3250 4200 3250
 Wire Wire Line
-<<<<<<< HEAD
-	4200 3250 4200 2550
-Wire Wire Line
-	3600 4350 4100 4350
-Wire Wire Line
-	4100 4350 4100 3300
-=======
 	5500 3600 5200 3600
 Connection ~ 5800 4200
 Connection ~ 5700 3600
@@ -218,114 +177,34 @@ Connection ~ 7200 5100
 Connection ~ 5900 7250
 Connection ~ 5900 7450
 Connection ~ 7050 4100
->>>>>>> Update schematic with Charles' suggestions and fixes
 Wire Wire Line
 	4100 3300 6250 3300
 Wire Wire Line
 	6250 3300 6250 2750
 Wire Wire Line
-<<<<<<< HEAD
-	3600 3750 1000 3750
-Connection ~ 3600 3750
-Connection ~ 5800 3600
-Wire Wire Line
-	8300 2700 8300 2500
-Wire Wire Line
-	8300 2500 7800 2500
-=======
 	9750 4450 9100 4450
->>>>>>> Update schematic with Charles' suggestions and fixes
 Wire Wire Line
 	5900 7550 5900 7250
 Wire Wire Line
-<<<<<<< HEAD
-	900  2450 900  3850
-Connection ~ 1000 2450
-Connection ~ 8700 1250
-Connection ~ 5200 1250
-Connection ~ 5200 5100
-Wire Wire Line
-	5200 5100 5300 5100
-Connection ~ 6550 2750
-Connection ~ 5400 4200
-Wire Wire Line
-	7700 1750 7800 1750
-Wire Wire Line
-	7800 1750 7800 2300
-Wire Wire Line
-	6350 1250 7200 1250
-Wire Wire Line
-	7700 1250 8700 1250
-Wire Wire Line
-	7100 1250 7100 2300
-Connection ~ 7100 1250
-Connection ~ 7750 3600
-=======
 	6400 2050 6400 1750
 Wire Wire Line
 	8600 2400 9600 2400
->>>>>>> Update schematic with Charles' suggestions and fixes
 Wire Wire Line
 	7750 3600 7750 4650
 Wire Wire Line
 	9000 3600 8350 3600
 Wire Wire Line
-<<<<<<< HEAD
-	7000 3600 7850 3600
-Connection ~ 900  2450
-=======
 	5200 5100 5300 5100
 Connection ~ 5200 5100
 Connection ~ 5200 1250
 Connection ~ 9600 2400
 Connection ~ 1000 2450
->>>>>>> Update schematic with Charles' suggestions and fixes
 Wire Wire Line
 	8700 4100 8700 4650
 Wire Wire Line
-<<<<<<< HEAD
-	8700 4650 8450 4650
-Connection ~ 5900 7450
-Connection ~ 5900 7250
-Connection ~ 7200 5100
-Connection ~ 7700 1250
-Connection ~ 7200 1250
-Connection ~ 7800 2300
-Connection ~ 7800 2500
-Connection ~ 7800 2700
-Connection ~ 7100 2700
-Connection ~ 6500 1250
-Connection ~ 6350 1250
-Connection ~ 6150 1250
-Connection ~ 6900 5100
-Connection ~ 7750 4650
-Connection ~ 7750 5050
-Connection ~ 8450 5050
-Connection ~ 8450 4850
-Connection ~ 8450 4650
-Connection ~ 9000 3600
-Connection ~ 8700 3600
-Connection ~ 8700 4100
-Connection ~ 8350 3600
-Connection ~ 7850 3600
-Connection ~ 7000 3600
-Connection ~ 6800 3600
-Connection ~ 7150 3600
-Connection ~ 5500 4200
-Connection ~ 6250 2750
-Connection ~ 5700 3600
-Connection ~ 5800 4200
-Wire Wire Line
-	5500 3600 5200 3600
-Connection ~ 5400 3600
-Wire Wire Line
-	4700 1250 5000 1250
-Connection ~ 4900 1250
-=======
 	5900 7550 5900 7250
 Connection ~ 5800 3600
 Connection ~ 3600 3750
->>>>>>> Update schematic with Charles' suggestions and fixes
 Wire Wire Line
 	1100 2450 1100 4800
 Wire Wire Line
@@ -337,43 +216,17 @@ Wire Wire Line
 Wire Wire Line
 	1000 3750 1000 2450
 Wire Wire Line
-<<<<<<< HEAD
-	8450 4850 8950 4850
-Wire Wire Line
-	8950 4850 8950 5050
-Connection ~ 5300 1250
-Wire Wire Line
-	1000 1350 1000 1100
-Wire Wire Line
-	1000 1100 650  1100
-Wire Wire Line
-	650  1100 650  5200
-Wire Wire Line
-	650  5200 3850 5200
-Wire Wire Line
-	3850 5200 3850 3950
-Connection ~ 3600 3850
-Wire Wire Line
-	900  3850 3600 3850
-=======
 	4650 4050 4450 4050
 Wire Wire Line
 	4550 2750 4800 2750
->>>>>>> Update schematic with Charles' suggestions and fixes
 Wire Wire Line
 	5200 1250 5200 1150
 Wire Wire Line
 	4050 2050 4050 1150
 Wire Wire Line
-<<<<<<< HEAD
-	5700 3550 5700 3600
-Wire Wire Line
-	5700 3550 4650 3550
-=======
 	4400 2250 4400 2400
 Connection ~ 4400 2250
 Connection ~ 4200 2550
->>>>>>> Update schematic with Charles' suggestions and fixes
 Wire Wire Line
 	5600 1900 5600 2750
 Wire Wire Line
@@ -394,19 +247,7 @@ Wire Wire Line
 Wire Wire Line
 	7800 3450 3600 3450
 Wire Wire Line
-<<<<<<< HEAD
-	5700 3600 6800 3600
-Wire Wire Line
-	5500 5100 5500 4200
-Wire Wire Line
-	5700 5100 5700 4200
-Wire Wire Line
-	5900 5100 5900 4200
-Wire Wire Line
-	6100 5100 6100 4200
-=======
 	5400 4200 5400 5100
->>>>>>> Update schematic with Charles' suggestions and fixes
 Wire Wire Line
 	5200 2750 5200 1850
 Connection ~ 5200 1900
@@ -418,42 +259,6 @@ Wire Wire Line
 Wire Wire Line
 	6450 1750 6500 1750
 Wire Wire Line
-<<<<<<< HEAD
-	7000 4000 7000 4100
-Wire Wire Line
-	7000 4100 7150 4100
-Wire Wire Line
-	4200 2550 4050 2550
-Connection ~ 4050 2550
-Wire Wire Line
-	4900 4850 4300 4850
-Wire Wire Line
-	4300 4850 4300 4250
-Wire Wire Line
-	4300 4250 3600 4250
-Wire Wire Line
-	6450 1650 6150 1650
-Connection ~ 6350 1650
-Wire Wire Line
-	6600 5350 6900 5350
-Connection ~ 6900 5350
-$Comp
-L R R17
-U 1 1 51426593
-P 6100 2800
-F 0 "R17" V 6180 2800 50  0000 C CNN
-F 1 "243" V 6100 2800 50  0000 C CNN
-	1    6100 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R18
-U 1 1 5142658A
-P 6600 5100
-F 0 "R18" V 6680 5100 50  0000 C CNN
-F 1 "243" V 6600 5100 50  0000 C CNN
-	1    6600 5100
-=======
 	5400 1900 5400 2750
 Wire Wire Line
 	4200 2550 4050 2550
@@ -490,16 +295,11 @@ P 7900 2150
 F 0 "R1" V 7980 2150 50  0000 C CNN
 F 1 "1k" V 7900 2150 50  0000 C CNN
 	1    7900 2150
->>>>>>> Update schematic with Charles' suggestions and fixes
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR01
-<<<<<<< HEAD
-U 1 1 51425222
-=======
 U 1 1 5200007C
->>>>>>> Update schematic with Charles' suggestions and fixes
 P 7200 5100
 F 0 "#PWR01" H 7200 5100 30  0001 C CNN
 F 1 "GND" H 7200 5030 30  0001 C CNN
@@ -508,11 +308,7 @@ F 1 "GND" H 7200 5030 30  0001 C CNN
 $EndComp
 $Comp
 L GND #PWR02
-<<<<<<< HEAD
-U 1 1 5142521C
-=======
 U 1 1 52000076
->>>>>>> Update schematic with Charles' suggestions and fixes
 P 6550 2750
 F 0 "#PWR02" H 6550 2750 30  0001 C CNN
 F 1 "GND" H 6550 2680 30  0001 C CNN
@@ -520,27 +316,6 @@ F 1 "GND" H 6550 2680 30  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-<<<<<<< HEAD
-L R R6
-U 1 1 51424AED
-P 6900 4250
-F 0 "R6" V 6980 4250 50  0000 C CNN
-F 1 "392K" V 6900 4250 50  0000 C CNN
-	1    6900 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R1
-U 1 1 51424AD8
-P 6150 1900
-F 0 "R1" V 6230 1900 50  0000 C CNN
-F 1 "392K" V 6150 1900 50  0000 C CNN
-	1    6150 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-=======
->>>>>>> Update schematic with Charles' suggestions and fixes
 L GND #PWR03
 U 1 1 5113FFBF
 P 5200 3600
@@ -770,50 +545,28 @@ $EndComp
 $Comp
 L +48V #PWR017
 U 1 1 5111849B
-<<<<<<< HEAD
-P 7750 5050
-F 0 "#PWR017" H 7750 5180 20  0001 C CNN
-F 1 "+48V" H 7750 5150 30  0000 C CNN
-	1    7750 5050
-	1    0    0    -1  
-=======
 P 9300 3550
 F 0 "#PWR017" H 9300 3680 20  0001 C CNN
 F 1 "+48V" H 9300 3650 30  0000 C CNN
 	1    9300 3550
 	-1   0    0    1   
->>>>>>> Update schematic with Charles' suggestions and fixes
 $EndComp
 $Comp
 L +48V #PWR018
 U 1 1 51118493
-<<<<<<< HEAD
-P 7100 2700
-F 0 "#PWR018" H 7100 2830 20  0001 C CNN
-F 1 "+48V" H 7100 2800 30  0000 C CNN
-	1    7100 2700
-=======
 P 8800 1500
 F 0 "#PWR018" H 8800 1630 20  0001 C CNN
 F 1 "+48V" H 8800 1600 30  0000 C CNN
 	1    8800 1500
->>>>>>> Update schematic with Charles' suggestions and fixes
 	1    0    0    -1  
 $EndComp
 $Comp
 L +48V #PWR019
 U 1 1 51118467
-<<<<<<< HEAD
-P 8700 1250
-F 0 "#PWR019" H 8700 1380 20  0001 C CNN
-F 1 "+48V" H 8700 1350 30  0000 C CNN
-	1    8700 1250
-=======
 P 9600 2400
 F 0 "#PWR019" H 9600 2530 20  0001 C CNN
 F 1 "+48V" H 9600 2500 30  0000 C CNN
 	1    9600 2400
->>>>>>> Update schematic with Charles' suggestions and fixes
 	1    0    0    -1  
 $EndComp
 $Comp
