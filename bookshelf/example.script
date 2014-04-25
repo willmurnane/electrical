@@ -1,0 +1,5 @@
+section initialize
+# x is the long axis, y is shorter
+goto 0 0 15 # 15mm above origin
+section foo
+
