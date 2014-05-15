@@ -1,35 +1,48 @@
-# EESchema Netlist Version 1.1 created  5/14/2014 12:04:12 AM
+# EESchema Netlist Version 1.1 created  5/14/2014 8:58:37 PM
 (
+ ( /53740B3D $noname  R10 R {Lib=R}
+  (    1 N-000028 )
+  (    2 GND )
+ )
+ ( /53740B2E $noname  R9 R {Lib=R}
+  (    1 N-000025 )
+  (    2 N-000028 )
+ )
+ ( /53740B16 transistor-fet-TO220  Q5 IRF540 {Lib=IRF540}
+  (    1 N-000028 )
+  (    2 GNDPWR )
+  (    3 GND )
+ )
  ( /5372EA76 $noname  R8 R {Lib=R}
-  (    1 N-000027 )
-  (    2 N-000013 )
+  (    1 N-000008 )
+  (    2 N-000026 )
  )
  ( /5372EA73 $noname  R7 R {Lib=R}
-  (    1 N-000026 )
-  (    2 N-000015 )
+  (    1 N-000009 )
+  (    2 N-000022 )
  )
  ( /5372EA70 $noname  R6 R {Lib=R}
-  (    1 N-000014 )
-  (    2 N-000012 )
+  (    1 N-000004 )
+  (    2 N-000024 )
  )
  ( /5372EA6B $noname  R5 R {Lib=R}
-  (    1 N-000020 )
-  (    2 N-000011 )
+  (    1 N-000011 )
+  (    2 N-000027 )
  )
  ( /5372E3EE $noname  Flow1 CONN_3 {Lib=CONN_3}
   (    1 GND )
-  (    2 N-000017 )
-  (    3 N-000016 )
+  (    2 N-000007 )
+  (    3 N-000006 )
  )
  ( /5372E162 $noname  Teensy1 CONN_14 {Lib=CONN_14}
   (    1 GND )
-  (    2 N-000016 )
-  (    3 N-000017 )
-  (    4 ? )
-  (    5 N-000027 )
-  (    6 N-000026 )
-  (    7 N-000014 )
-  (    8 N-000020 )
+  (    2 N-000006 )
+  (    3 N-000007 )
+  (    4 N-000025 )
+  (    5 N-000008 )
+  (    6 N-000009 )
+  (    7 N-000004 )
+  (    8 N-000011 )
   (    9 ? )
   (   10 ? )
   (   11 ? )
@@ -38,24 +51,24 @@
   (   14 ? )
  )
  ( /5372E11D $noname  P9 PSUBOARD {Lib=PSUBOARD}
-  (    1 GND )
+  (    1 GNDPWR )
   (    2 +12V )
  )
  ( /5372D5B6 $noname  D3 DIODE {Lib=DIODE}
-  (    1 N-000007 )
+  (    1 N-000001 )
   (    2 +12V )
  )
  ( /5372D5B5 transistor-fet-TO220  Q3 IRF540 {Lib=IRF540}
-  (    1 N-000008 )
-  (    2 N-000007 )
-  (    3 GND )
+  (    1 N-000002 )
+  (    2 N-000001 )
+  (    3 GNDPWR )
  )
  ( /5372D5B2 $noname  R3 R {Lib=R}
   (    1 +12V )
-  (    2 N-000008 )
+  (    2 N-000002 )
  )
  ( /5372D5B1 $noname  P6 CONN_1 {Lib=CONN_1}
-  (    1 N-000007 )
+  (    1 N-000001 )
  )
  ( /5372D5B0 $noname  P5 CONN_1 {Lib=CONN_1}
   (    1 +12V )
@@ -68,76 +81,90 @@
  )
  ( /5372D5AD $noname  R4 R {Lib=R}
   (    1 +12V )
-  (    2 N-000002 )
+  (    2 N-000019 )
  )
  ( /5372D5AA transistor-fet-TO220  Q4 IRF540 {Lib=IRF540}
-  (    1 N-000002 )
+  (    1 N-000019 )
   (    2 N-000003 )
-  (    3 GND )
+  (    3 GNDPWR )
  )
  ( /5372D5A9 $noname  D4 DIODE {Lib=DIODE}
   (    1 N-000003 )
   (    2 +12V )
  )
  ( /5372D5A8 $noname  D2 DIODE {Lib=DIODE}
-  (    1 N-000004 )
+  (    1 N-000010 )
   (    2 +12V )
  )
  ( /5372D5A7 transistor-fet-TO220  Q2 IRF540 {Lib=IRF540}
-  (    1 N-000005 )
-  (    2 N-000004 )
-  (    3 GND )
+  (    1 N-000020 )
+  (    2 N-000010 )
+  (    3 GNDPWR )
  )
  ( /5372D5A4 $noname  R2 R {Lib=R}
   (    1 +12V )
-  (    2 N-000005 )
+  (    2 N-000020 )
  )
  ( /5372D5A3 $noname  P4 CONN_1 {Lib=CONN_1}
-  (    1 N-000004 )
+  (    1 N-000010 )
  )
  ( /5372D5A2 $noname  P3 CONN_1 {Lib=CONN_1}
   (    1 +12V )
  )
  ( /5372D520 $noname  Opto1 TLP281-4 {Lib=TLP281-4}
-  (    1 N-000011 )
+  (    1 N-000027 )
   (    2 GND )
-  (    3 N-000012 )
+  (    3 N-000024 )
   (    4 GND )
-  (    5 N-000015 )
+  (    5 N-000022 )
   (    6 GND )
-  (    7 N-000013 )
+  (    7 N-000026 )
   (    8 GND )
-  (    9 GND )
-  (   10 N-000002 )
-  (   11 GND )
-  (   12 N-000008 )
-  (   13 GND )
-  (   14 N-000005 )
-  (   15 GND )
-  (   16 N-000010 )
+  (    9 GNDPWR )
+  (   10 N-000019 )
+  (   11 GNDPWR )
+  (   12 N-000002 )
+  (   13 GNDPWR )
+  (   14 N-000020 )
+  (   15 GNDPWR )
+  (   16 N-000021 )
  )
  ( /5372D15D $noname  P1 CONN_1 {Lib=CONN_1}
   (    1 +12V )
  )
  ( /5372D15C $noname  P2 CONN_1 {Lib=CONN_1}
-  (    1 N-000009 )
+  (    1 N-000023 )
  )
  ( /5372D15B $noname  R1 R {Lib=R}
   (    1 +12V )
-  (    2 N-000010 )
+  (    2 N-000021 )
  )
  ( /5372D158 transistor-fet-TO220  Q1 IRF540 {Lib=IRF540}
-  (    1 N-000010 )
-  (    2 N-000009 )
-  (    3 GND )
+  (    1 N-000021 )
+  (    2 N-000023 )
+  (    3 GNDPWR )
  )
  ( /5372D154 $noname  D1 DIODE {Lib=DIODE}
-  (    1 N-000009 )
+  (    1 N-000023 )
   (    2 +12V )
  )
 )
 *
 { Allowed footprints by component:
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
 $component R8
  R?
  SM0603
@@ -213,97 +240,108 @@ $endlist
 $endfootprintlist
 }
 { Pin List by Nets
-Net 1 "GND" "GND"
- Q1 3
- Opto1 8
- Opto1 15
- Opto1 13
- Opto1 11
- Opto1 9
- Opto1 6
- Teensy1 1
- Q2 3
- Flow1 1
- Opto1 4
- Opto1 2
- P9 1
- Q3 3
- Q4 3
-Net 2 "" ""
- Opto1 10
- R4 2
- Q4 1
-Net 3 "" ""
- D4 1
- Q4 2
- P8 1
-Net 4 "" ""
- Q2 2
- D2 1
- P4 1
-Net 5 "" ""
- R2 2
- Opto1 14
- Q2 1
-Net 6 "+12V" "+12V"
- D2 2
- D4 2
- D1 2
- P1 1
- R1 1
- R4 1
- D3 2
- P9 2
- P7 1
- R3 1
- P3 1
- R2 1
- P5 1
-Net 7 "" ""
+Net 1 "" ""
  D3 1
  Q3 2
  P6 1
-Net 8 "" ""
+Net 2 "" ""
+ Q3 1
  R3 2
  Opto1 12
- Q3 1
+Net 3 "" ""
+ D4 1
+ P8 1
+ Q4 2
+Net 4 "" ""
+ Teensy1 7
+ R6 1
+Net 5 "GND" "GND"
+ Opto1 6
+ Q5 3
+ Opto1 4
+ Opto1 8
+ R10 2
+ Opto1 2
+ Teensy1 1
+ Flow1 1
+Net 6 "" ""
+ Teensy1 2
+ Flow1 3
+Net 7 "" ""
+ Teensy1 3
+ Flow1 2
+Net 8 "" ""
+ R8 1
+ Teensy1 5
 Net 9 "" ""
- D1 1
- Q1 2
- P2 1
+ Teensy1 6
+ R7 1
 Net 10 "" ""
+ Q2 2
+ D2 1
+ P4 1
+Net 11 "" ""
+ Teensy1 8
+ R5 1
+Net 18 "GNDPWR" "GNDPWR"
+ Q5 2
+ Q3 3
+ Q2 3
+ Opto1 9
+ Q1 3
+ Opto1 11
+ Opto1 13
+ Q4 3
+ P9 1
+ Opto1 15
+Net 19 "" ""
+ Q4 1
+ Opto1 10
+ R4 2
+Net 20 "" ""
+ R2 2
+ Opto1 14
+ Q2 1
+Net 21 "" ""
  Opto1 16
  R1 2
  Q1 1
-Net 11 "" ""
- Opto1 1
- R5 2
-Net 12 "" ""
- Opto1 3
- R6 2
-Net 13 "" ""
- Opto1 7
- R8 2
-Net 14 "" ""
- Teensy1 7
- R6 1
-Net 15 "" ""
+Net 22 "" ""
  Opto1 5
  R7 2
-Net 16 "" ""
- Flow1 3
- Teensy1 2
-Net 17 "" ""
- Flow1 2
- Teensy1 3
-Net 20 "" ""
- Teensy1 8
- R5 1
+Net 23 "" ""
+ Q1 2
+ D1 1
+ P2 1
+Net 24 "" ""
+ R6 2
+ Opto1 3
+Net 25 "" ""
+ Teensy1 4
+ R9 1
 Net 26 "" ""
- Teensy1 6
- R7 1
+ Opto1 7
+ R8 2
 Net 27 "" ""
- R8 1
- Teensy1 5
+ Opto1 1
+ R5 2
+Net 28 "" ""
+ R10 1
+ R9 2
+ Q5 1
+Net 29 "+12V" "+12V"
+ P9 2
+ R4 1
+ P1 1
+ P5 1
+ R3 1
+ D3 2
+ P7 1
+ P3 1
+ R2 1
+ D2 2
+ D1 2
+ R1 1
+ D4 2
 }
 #End

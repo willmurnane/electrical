@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 5/14/2014 12:04:07 AM
+Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 5/14/2014 8:43:10 PM
 
 BeginCmp
 TimeStamp = /5372D154;
@@ -39,7 +39,7 @@ BeginCmp
 TimeStamp = /5372D520;
 Reference = Opto1;
 ValeurCmp = TLP281-4;
-IdModule  = SO16W;
+IdModule  = SO16N;
 EndCmp
 
 BeginCmp
@@ -106,6 +106,20 @@ IdModule  = PsuBoard;
 EndCmp
 
 BeginCmp
+TimeStamp = /53740B82;
+Reference = P10;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /53740B86;
+Reference = P11;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
 TimeStamp = /5372D158;
 Reference = Q1;
 ValeurCmp = IRF540;
@@ -129,6 +143,13 @@ EndCmp
 BeginCmp
 TimeStamp = /5372D5AA;
 Reference = Q4;
+ValeurCmp = IRF540;
+IdModule  = SOT23;
+EndCmp
+
+BeginCmp
+TimeStamp = /53740B16;
+Reference = Q5;
 ValeurCmp = IRF540;
 IdModule  = SOT23;
 EndCmp
@@ -185,6 +206,20 @@ EndCmp
 BeginCmp
 TimeStamp = /5372EA76;
 Reference = R8;
+ValeurCmp = R;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /53740B2E;
+Reference = R9;
+ValeurCmp = R;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /53740B3D;
+Reference = R10;
 ValeurCmp = R;
 IdModule  = SM1206;
 EndCmp
