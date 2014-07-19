@@ -1,0 +1,43 @@
+# EESchema Netlist Version 1.1 created  7/19/2014 3:17:42 PM
+(
+ ( /53CAC30D $noname  P2 AIN {Lib=AIN}
+  (    1 +5V )
+  (    3 N-000006 )
+  (    5 GND )
+ )
+ ( /53CABE94 $noname  P1 TC-PLUG {Lib=TC-PLUG}
+  (    1 N-000003 )
+  (    2 N-000001 )
+ )
+ ( /53C73928 $noname  U1 AD8495 {Lib=AD8495}
+  (    1 N-000001 )
+  (    2 GND )
+  (    3 GND )
+  (    4 ? )
+  (    5 N-000006 )
+  (    6 N-000006 )
+  (    7 +5V )
+  (    8 N-000003 )
+ )
+)
+*
+{ Pin List by Nets
+Net 1 "" ""
+ P1 2
+ U1 1
+Net 2 "+5V" "+5V"
+ P2 1
+ U1 7
+Net 3 "" ""
+ U1 8
+ P1 1
+Net 4 "GND" "GND"
+ U1 3
+ U1 2
+ P2 5
+Net 6 "" ""
+ U1 6
+ P2 3
+ U1 5
+}
+#End
