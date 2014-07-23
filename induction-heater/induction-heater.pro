@@ -1,6 +1,6 @@
-update=Thu 14 Feb 2013 08:32:34 PM EST
+update=2/17/2013 3:43:14 PM
 version=1
-last_client=cvpcb
+last_client=pcbnew
 [general]
 version=1
 [eeschema]
@@ -69,11 +69,17 @@ LibName31=avrcraft-cache
 LibName32=csense-opamp
 LibName33=poe-injector-cache
 LibName34=rjcse538001
+LibName35=irs2301s
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [pcbnew]
 version=1
-PadDrlX=320
-PadDimH=600
-PadDimV=600
+PadDrlX=0
+PadDimH=2090
+PadDimV=1100
 BoardThickness=630
 TxtPcbV=800
 TxtPcbH=600
@@ -87,6 +93,7 @@ TxtLar=120
 MSegLar=150
 LastNetListRead=induction-heater.net
 [pcbnew/libraries]
+LibDir=../libs
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -97,10 +104,5 @@ LibName7=display
 LibName8=valves
 LibName9=led
 LibName10=dip_sockets
-LibName11=/home/will/will-electrical/libs/w_smd_trans
-LibDir=
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+LibName11=w_smd_trans
+LibName12=SRR1210

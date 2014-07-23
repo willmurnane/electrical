@@ -1,0 +1,79 @@
+eeschema (2012-01-19 BZR 3256)-stable  >> Creation date: 3/8/2013 4:05:13 PM
+
+#Cmp ( order = Reference )
+| C1         10u         
+| EIN1       CONN_10     
+| EIN2       CONN_10     
+| EOUT1      CONN_10     
+| EOUT2      CONN_10     
+| IC1        ATTINY44-SS 
+| J1         AVRISP6     
+| L1         INDUCTOR    
+| L2         INDUCTOR    
+| L3         INDUCTOR    
+| L4         INDUCTOR    
+| L5         INDUCTOR    
+| L6         INDUCTOR    
+| L7         INDUCTOR    
+| L8         INDUCTOR    
+| POEGND1    CONN_1      
+| POEGND2    CONN_1      
+| Q1         ZXMP10A17E6 
+| Q2         2N7002K     
+| Q3         ZXMP10A17E6 
+| Q4         2N7002K     
+| R1         33k         
+| R2         100k        
+| R3         1           
+| R4         1k          
+| R5         100k        
+| R6         10k         
+| R7         1           
+| R8         1k          
+| R9         1k          
+| R10        1k          
+| U2         LTC6101     
+| U4         LTC6101     
+| VBUS1      CONN_1      
+| VBUS2      CONN_1      
+#End Cmp
+
+#Cmp ( order = Value )
+| 1            R3        
+| 1            R7        
+| 100k         R2        
+| 100k         R5        
+| 10k          R6        
+| 10u          C1        
+| 1k           R4        
+| 1k           R8        
+| 1k           R9        
+| 1k           R10       
+| 2N7002K      Q2        
+| 2N7002K      Q4        
+| 33k          R1        
+| ATTINY44-SS  IC1       
+| AVRISP6      J1        
+| CONN_1       POEGND1   
+| CONN_1       POEGND2   
+| CONN_1       VBUS1     
+| CONN_1       VBUS2     
+| CONN_10      EIN1      
+| CONN_10      EIN2      
+| CONN_10      EOUT1     
+| CONN_10      EOUT2     
+| INDUCTOR     L1        
+| INDUCTOR     L2        
+| INDUCTOR     L3        
+| INDUCTOR     L4        
+| INDUCTOR     L5        
+| INDUCTOR     L6        
+| INDUCTOR     L7        
+| INDUCTOR     L8        
+| LTC6101      U2        
+| LTC6101      U4        
+| ZXMP10A17E6  Q1        
+| ZXMP10A17E6  Q3        
+#End Cmp
+
+#End List

@@ -1,5 +1,8 @@
-update=3/4/2013 7:02:40 PM
+update=6/8/2014 7:30:05 PM
+version=1
 last_client=eeschema
+[general]
+version=1
 [cvpcb]
 version=1
 NetIExt=net
@@ -8,8 +11,8 @@ EquName1=devcms
 [pcbnew]
 version=1
 PadDrlX=0
-PadDimH=1201
-PadDimV=240
+PadDimH=1299
+PadDimV=1299
 BoardThickness=630
 TxtPcbV=800
 TxtPcbH=600
@@ -21,7 +24,7 @@ DrawLar=150
 EdgeLar=150
 TxtLar=120
 MSegLar=150
-LastNetListRead=poe-injector.net
+LastNetListRead=
 [pcbnew/libraries]
 LibDir=../libs
 LibName1=sockets
@@ -34,11 +37,8 @@ LibName7=display
 LibName8=valves
 LibName9=led
 LibName10=dip_sockets
-LibName11=SMT_ETHERNET
-LibName12=w_smd_trans
-LibName13=attiny24_44_84
-LibName14=RJCSE538001
-LibName15=RIBBON6SMT
+LibName11=RIBBON6SMT
+LibName12=PsuBoard
 [eeschema]
 version=1
 LibDir=../libs
@@ -101,7 +101,6 @@ LibName27=opto
 LibName28=contrib
 LibName29=valves
 LibName30=avrcraft-cache
-LibName31=csense-opamp
-LibName32=poe-injector-cache
-LibName33=atmel
-LibName34=rjcse538001
+LibName31=poe-injector-cache
+LibName32=tlp281-4
+LibName33=psuboard

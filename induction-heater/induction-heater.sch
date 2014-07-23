@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 15 Feb 2013 07:47:22 AM EST
+EESchema Schematic File Version 2  date 3/21/2013 9:31:14 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -33,13 +33,15 @@ LIBS:avrcraft-cache
 LIBS:csense-opamp
 LIBS:poe-injector-cache
 LIBS:rjcse538001
+LIBS:irs2301s
+LIBS:induction-heater-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "15 feb 2013"
+Date "22 mar 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -47,9 +49,28 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Connection ~ 3050 3100
+Connection ~ 3050 -200
 Wire Wire Line
-	3350 3100 3050 3100
+	1300 3450 2050 3450
+Wire Wire Line
+	1300 3450 1300 2400
+Wire Wire Line
+	1300 2400 1500 2400
+Wire Wire Line
+	2050 3450 2050 3700
+Wire Wire Line
+	1500 2250 1150 2250
+Wire Wire Line
+	2750 2400 2850 2400
+Wire Wire Line
+	2850 2400 2850 3100
+Wire Wire Line
+	2850 3100 3350 3100
+Wire Wire Line
+	2950 2250 2950 2450
+Wire Wire Line
+	2950 2250 2750 2250
+Connection ~ 3050 3100
 Connection ~ 3350 2800
 Wire Wire Line
 	3050 2800 5200 2800
@@ -78,10 +99,6 @@ Wire Wire Line
 Wire Wire Line
 	4200 2900 4200 3200
 Wire Wire Line
-	2950 3400 1450 3400
-Wire Wire Line
-	1450 3400 1450 3700
-Wire Wire Line
 	1450 6400 1350 6400
 Wire Wire Line
 	1350 6400 1350 6100
@@ -107,10 +124,6 @@ Wire Wire Line
 Wire Wire Line
 	2750 3700 2550 3700
 Wire Wire Line
-	1350 3000 2950 3000
-Wire Wire Line
-	1350 3000 1350 3700
-Wire Wire Line
 	4200 3100 3950 3100
 Wire Wire Line
 	5200 2800 5200 2700
@@ -122,8 +135,6 @@ Wire Wire Line
 	5750 3200 5750 2450
 Wire Wire Line
 	5750 2450 2950 2450
-Wire Wire Line
-	2950 2450 2950 3000
 Connection ~ 4600 3100
 Wire Wire Line
 	2950 3850 3500 3850
@@ -137,6 +148,75 @@ Wire Wire Line
 Connection ~ 3450 2450
 Wire Wire Line
 	3050 3050 3050 3200
+Wire Wire Line
+	2950 3400 2750 3400
+Wire Wire Line
+	2750 3400 2750 2550
+Wire Wire Line
+	3750 2800 3750 2100
+Wire Wire Line
+	3750 2100 2750 2100
+Connection ~ 3750 2800
+Wire Wire Line
+	2450 3700 2450 2900
+Wire Wire Line
+	2450 2900 1150 2900
+Wire Wire Line
+	1150 2900 1150 2250
+$Comp
+L +5V #PWR01
+U 1 1 512153F8
+P 3200 5900
+F 0 "#PWR01" H 3200 5990 20  0001 C CNN
+F 1 "+5V" H 3200 5990 30  0000 C CNN
+	1    3200 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 512153F3
+P 3200 6300
+F 0 "#PWR02" H 3200 6300 30  0001 C CNN
+F 1 "GND" H 3200 6230 30  0001 C CNN
+	1    3200 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C2
+U 1 1 512153EE
+P 3200 6100
+F 0 "C2" H 3250 6200 50  0000 L CNN
+F 1 "10uF" H 3250 6000 50  0000 L CNN
+	1    3200 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR03
+U 1 1 511E47FB
+P 1500 2100
+F 0 "#PWR03" H 1500 2190 20  0001 C CNN
+F 1 "+5V" H 1500 2190 30  0000 C CNN
+	1    1500 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 511E47F5
+P 1500 2550
+F 0 "#PWR04" H 1500 2550 30  0001 C CNN
+F 1 "GND" H 1500 2480 30  0001 C CNN
+	1    1500 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L IRS2301S U1
+U 1 1 511E47E8
+P 2150 2300
+F 0 "U1" H 2150 2100 60  0000 C CNN
+F 1 "IRS2301S" H 2150 2250 60  0000 C CNN
+	1    2150 2300
+	1    0    0    -1  
+$EndComp
 $Comp
 L IRF540 Q2
 U 1 1 511BB100
@@ -177,37 +257,37 @@ F 1 "INDUCTOR" V 5000 3100 40  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +5V #PWR01
+L +5V #PWR05
 U 1 1 511BB33E
 P 2550 6300
-F 0 "#PWR01" H 2550 6390 20  0001 C CNN
+F 0 "#PWR05" H 2550 6390 20  0001 C CNN
 F 1 "+5V" H 2550 6390 30  0000 C CNN
 	1    2550 6300
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR02
+L GND #PWR06
 U 1 1 511BB339
 P 2550 6500
-F 0 "#PWR02" H 2550 6500 30  0001 C CNN
+F 0 "#PWR06" H 2550 6500 30  0001 C CNN
 F 1 "GND" H 2550 6430 30  0001 C CNN
 	1    2550 6500
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR03
+L GND #PWR07
 U 1 1 511BB336
 P 2550 5800
-F 0 "#PWR03" H 2550 5800 30  0001 C CNN
+F 0 "#PWR07" H 2550 5800 30  0001 C CNN
 F 1 "GND" H 2550 5730 30  0001 C CNN
 	1    2550 5800
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR04
+L +5V #PWR08
 U 1 1 511BB330
 P 1350 5800
-F 0 "#PWR04" H 1350 5890 20  0001 C CNN
+F 0 "#PWR08" H 1350 5890 20  0001 C CNN
 F 1 "+5V" H 1350 5890 30  0000 C CNN
 	1    1350 5800
 	-1   0    0    1   
